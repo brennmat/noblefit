@@ -102,13 +102,13 @@ else
     end
 
     if A < 0
-        warning ( 'nf_modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EAce: A=%g is negative. This is not physically sensible in the CE excess air model...',A));
+        warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EAce: A=%g is negative. This is not physically sensible in the CE excess air model...',A));
     end
     
     if F > 1
-        warning ( 'nf_modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EAce: F=%g is larger than 1. This is not physically sensible in the CE model...',F) );
+        warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EAce: F=%g is larger than 1. This is not physically sensible in the CE model...',F) );
     elseif F < 0
-        warning ( 'nf_modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EAce: F=%g is negative. This is not physically sensible in the CE model...',F));
+        warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EAce: F=%g is negative. This is not physically sensible in the CE model...',F));
     end
     
     X = repmat (NA,1,length(tracers));   

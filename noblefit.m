@@ -349,7 +349,7 @@ for i = 1:Nsmpl % fit each sample
         goalfun = @(PF) nf_objfun (PF.*PFnorm+PF0,P0,PFmin,PFmax,mdl,X_val(i,:),X_err(i,:)); % call objective function with transformed fit parameters as described above        
         
         % turn off warnings about parameters that are outside the allowed range during fitting (this may happen too often if the fitter is trying to optimise outside the allowed range)
-        warnstate_bounds   = warning ('query','nf_modelfun_params_out_of_bounds');   warning ('off','nf_modelfun_params_out_of_bounds');
+        warnstate_bounds   = warning ('query','noblefit:modelfun_params_out_of_bounds');   warning ('off','noblefit:modelfun_params_out_of_bounds');
         warnstate_atmtime  = warning ('query','atmos_gas_timerange');                warning ('off','atmos_gas_timerange');
         warnstate_loadfile = warning ('query','load-file-in-path');                  warning ('off','load-file-in-path'); % turn off warnings about loading data from atmospheric transient tracer data
         
@@ -357,7 +357,7 @@ for i = 1:Nsmpl % fit each sample
         [par_val(i,:),chi2(i)] = fminsearch(goalfun,repmat(0,size(PF0))); % find best-fit parameter values relative to PF0 (both offeset and normalised!)
         
         % turn warnings back on:
-        warning (warnstate_bounds.state,'nf_modelfun_params_out_of_bounds');
+        warning (warnstate_bounds.state,'noblefit:modelfun_params_out_of_bounds');
         warning (warnstate_atmtime.state,'atmos_gas_timerange');
         warning (warnstate_loadfile.state,'load-file-in-path'); % turn off warnings about loading data from atmospheric transient tracer data
         

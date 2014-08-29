@@ -97,11 +97,11 @@ else
     end
 
     if A < 0
-        warning ( 'nf_modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EApr: A=%g is negative. This is not physically sensible in the PR excess air model...',A));
+        warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EApr: A=%g is negative. This is not physically sensible in the PR excess air model...',A));
     end
     
     if F < 0
-        warning ( 'nf_modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EApr: F=%g is negative. This is not physically sensible in the PR model...',F));
+        warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EApr: F=%g is negative. This is not physically sensible in the PR model...',F));
     end
     
     X = repmat (NA,1,length(tracers));   

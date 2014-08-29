@@ -85,7 +85,7 @@ else
     end
 
     if A < 0
-        warning ('nf_modelfun_params_out_of_bounds',sprintf('nf_modelfun_EAu: A=%g is negative. This is not physically sensible in the unfractionated-air excess air model...',A));
+        warning ('noblefit:modelfun_params_out_of_bounds',sprintf('nf_modelfun_EAu: A=%g is negative. This is not physically sensible in the unfractionated-air excess air model...',A));
     end
 
     X = repmat (NA,1,length(tracers));

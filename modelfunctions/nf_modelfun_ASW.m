@@ -97,11 +97,11 @@ else
     end
 
     if T < 0
-        warning ( 'nf_modelfun_params_out_of_bounds' , sprintf('nf_modelfun_ASW: T=%g is negative. This is not physically sensible in the ASW model...',T));
+        warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_ASW: T=%g is negative. This is not physically sensible in the ASW model...',T));
     end
     
     if S < 0
-        warning ( 'nf_modelfun_params_out_of_bounds' , sprintf('nf_modelfun_ASW: S=%g is negative. This is not physically sensible in the ASW model...',S) );
+        warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_ASW: S=%g is negative. This is not physically sensible in the ASW model...',S) );
     end
 
     X = repmat (NA,1,length(tracers));
