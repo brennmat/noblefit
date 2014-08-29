@@ -43,7 +43,7 @@
 \begin{lstlisting}
  G = nf_objfun (PF,P0,PFmin,PFmax,mdl,X_val,X_err)
 
- Objective function for mimization in parameter regression. Determines the modelled values using the model for the given parameter values, and calculates the chi^2 value from the difference to the data values. If called with fit parameter values that exceed the limits in PFmin and PFmax, the chi^2 value will be calculated such that the chi^2 minimizer will look elsewhere for a 'better' optimum (see commented code for details).
+ Objective function for mimization in parameter regression. Determines the modelled values using the model for the given parameter values, and calculates the chi^2 value from the difference to the data values. If called with fit parameter values that exceed the limits in PFmin and PFmax, the chi^2 value will be calculated such that the chi^2 minimizer will look elsewhere for a 'better' optimum (see commented code for details). Note that many techniques for fitting with constrained parameter ranges rely on mapping the "infinite chi2 surface" to the allowed parameter range. This distorts the chi2 surface, and while the minimum chi2 value will correspond to the correct best-fit paramter values, the "distorted" chi2 value cannot be statistically interpreted in the same way as the "undistorted" chi2. nf_objfun.m therefore avoids distorting the chi2 surface in the allowed parameter range, and the resulting chi2 value can be interpreted using the conventionel chi2 statistics.
 
  INPUT:
  PF: vector of fitted model parameter values

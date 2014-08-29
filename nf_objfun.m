@@ -2,7 +2,7 @@ function G = nf_objfun (PF,P0,PFmin,PFmax,mdl,X_val,X_err)
 
 % G = nf_objfun (PF,P0,PFmin,PFmax,mdl,X_val,X_err)
 %
-% Objective function for mimization in parameter regression. Determines the modelled values using the model for the given parameter values, and calculates the chi^2 value from the difference to the data values. If called with fit parameter values that exceed the limits in PFmin and PFmax, the chi^2 value will be calculated such that the chi^2 minimizer will look elsewhere for a 'better' optimum (see commented code for details).
+% Objective function for mimization in parameter regression. Determines the modelled values using the model for the given parameter values, and calculates the chi^2 value from the difference to the data values. If called with fit parameter values that exceed the limits in PFmin and PFmax, the chi^2 value will be calculated such that the chi^2 minimizer will look elsewhere for a 'better' optimum (see commented code for details). Note that many techniques for fitting with constrained parameter ranges rely on mapping the "infinite chi2 surface" to the allowed parameter range. This distorts the chi2 surface, and while the minimum chi2 value will correspond to the correct best-fit paramter values, the "distorted" chi2 value cannot be statistically interpreted in the same way as the "undistorted" chi2. nf_objfun.m therefore avoids distorting the chi2 surface in the allowed parameter range, and the resulting chi2 value can be interpreted using the conventionel chi2 statistics.
 %
 % INPUT:
 % PF: vector of fitted model parameter values
@@ -43,8 +43,11 @@ function G = nf_objfun (PF,P0,PFmin,PFmax,mdl,X_val,X_err)
 
 fflush (stdout); % flush out any messages produced by the model function
 
-% check if PF values are within allowed limits
-if any ( k = (PF < PFmin) ) % some parameter values are lower than allowed. Calculate the mirror image of the chi2 curve from the other side of the limit value
+
+
+% Check if PF values are within allowed limits:
+
+if any ( k = (PF < PFmin) ) % some parameter values are lower than allowed.
     W1 = warning ('query','nf_atmos_gas_timerange'); warning ('off','nf_atmos_gas_timerange'); 
     W2 = warning ('query','nf_atmos_gas_henry_zerodivision'); warning ('off','nf_atmos_gas_henry_zerodivision'); 
     M_val = eval (mdl); % avaluate model in the forbidden area
@@ -61,13 +64,13 @@ if any ( k = (PF < PFmin) ) % some parameter values are lower than allowed. Calc
     M_val = eval (mdl); % evaluate model in the allowed area
     Ga = sum ( ((X_val-M_val) ./ X_err).^2 ); % chi2 in the allowed area
     PF(k) = PFmin(k); % this on the border to the allowed area
-    M_val = eval (mdl); % avaluate model in the allowed area
+    M_val = eval (mdl); % avaluate model on the border
     Gb = sum ( ((X_val-M_val) ./ X_err).^2 ); % chi2 on the border
     Gf = Gb + abs(Ga-Gb) * l0/sqrt(sum(dP.^2)); % fake the value in the forbidden area by mirroring the chi2 curve at the limit value (by linear extrapolation)
 
     G = max(Gx,Gf); % take the larger of the two
     
-elseif any ( k = (PF > PFmax) )
+elseif any ( k = (PF > PFmax) ) % some parameter values are larger than allowed.
     W1 = warning ('query','nf_atmos_gas_timerange'); warning ('off','nf_atmos_gas_timerange'); 
     W2 = warning ('query','nf_atmos_gas_henry_zerodivision'); warning ('off','nf_atmos_gas_henry_zerodivision'); 
     M_val = eval (mdl); % avaluate model in the forbidden area
@@ -85,14 +88,13 @@ elseif any ( k = (PF > PFmax) )
     M_val = eval (mdl); % evaluate model in the allowed area
     Ga = sum ( ((X_val-M_val) ./ X_err).^2 ); % chi2 in the allowed area
     PF(k) = PFmin(k); % this on the border to the allowed area
-    M_val = eval (mdl); % avaluate model in the allowed area
+    M_val = eval (mdl); % avaluate model on the border
     Gb = sum ( ((X_val-M_val) ./ X_err).^2 ); % chi2 on the border
     Gf = Gb + abs(Ga-Gb) * l0/sqrt(sum(dP.^2)); % fake the value in the forbidden area by mirroring the chi2 curve at the limit value (by linear extrapolation)
 
     G = max(Gx,Gf); % take the larger of the two
     
-else % we're in the "allowed range" calculate chi2:
- 
+else % Parameter value(s) in the "allowed range". Go ahead and calculate chi2:
     M_val = eval (mdl);
     G = sum ( ((X_val-M_val) ./ X_err).^2 );
     
