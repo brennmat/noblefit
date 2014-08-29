@@ -1,0 +1,15 @@
+\providecommand{\noopsort}[1]{}
+\begin{thebibliography}{1}
+
+\bibitem{Aeschbach:1999}
+W.~Aeschbach-Hertig, F.~Peeters, U.~Beyerle, and R.~Kipfer.
+\newblock Interpretation of dissolved atmospheric noble gases in natural
+  waters.
+\newblock {\em Water Resour. Res.}, 35(9):2779--2792, 1999.
+
+\bibitem{Press:1986}
+W.~H. Press, P.~F. Flannery, S.~A. Teukolsky, and W.~T. Vetterling.
+\newblock {\em Numerical Recipes}.
+\newblock Cambridge University Press, Cambridge, London, New York, 1986.
+
+\end{thebibliography}
