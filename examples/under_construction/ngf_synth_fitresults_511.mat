@@ -1,0 +1,11695 @@
+# Created by Octave 3.6.4, Mon Dec 09 18:07:04 2013 CET <brennmat@wut-uiproc>
+# name: conc
+# type: struct
+# ndims: 2
+ 100 1
+# length: 10
+# name: He
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.283047145737886e-08
+
+
+# name: err
+# type: scalar
+5.240155074962511e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.076228791556348e-08
+
+
+# name: err
+# type: scalar
+5.084475590311769e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.390368803555831e-08
+
+
+# name: err
+# type: scalar
+5.453564813632488e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.872484710170505e-08
+
+
+# name: err
+# type: scalar
+5.840812989406091e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.957812473333095e-08
+
+
+# name: err
+# type: scalar
+5.934767966873119e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.565443100740576e-08
+
+
+# name: err
+# type: scalar
+4.509244125727156e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.727403451755189e-08
+
+
+# name: err
+# type: scalar
+6.692356517102374e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.414885826986316e-08
+
+
+# name: err
+# type: scalar
+6.438412680843142e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.67304378516114e-08
+
+
+# name: err
+# type: scalar
+5.720883101311402e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.007990020714654e-08
+
+
+# name: err
+# type: scalar
+4.966091308186076e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.490732939814453e-08
+
+
+# name: err
+# type: scalar
+6.622141694274834e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.065703644676904e-08
+
+
+# name: err
+# type: scalar
+5.09256968189675e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.921918207881297e-08
+
+
+# name: err
+# type: scalar
+4.882466786864851e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.985443124202544e-08
+
+
+# name: err
+# type: scalar
+4.996810507666561e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.888946906052339e-08
+
+
+# name: err
+# type: scalar
+4.908241496953021e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.855768569421858e-08
+
+
+# name: err
+# type: scalar
+5.866919738248789e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.378966345903162e-08
+
+
+# name: err
+# type: scalar
+6.410892779682237e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.328273037608196e-08
+
+
+# name: err
+# type: scalar
+5.355549078574053e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.395087332207146e-08
+
+
+# name: err
+# type: scalar
+8.350714927782734e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.009786364130517e-08
+
+
+# name: err
+# type: scalar
+5.010144288624321e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.156831816402819e-08
+
+
+# name: err
+# type: scalar
+5.117308434586507e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.070067540382348e-08
+
+
+# name: err
+# type: scalar
+6.121282546923978e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.752438600680463e-08
+
+
+# name: err
+# type: scalar
+5.792305156788993e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.937477480290447e-08
+
+
+# name: err
+# type: scalar
+6.038333550854713e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.53691560812354e-08
+
+
+# name: err
+# type: scalar
+5.612767633294885e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.873390430869505e-08
+
+
+# name: err
+# type: scalar
+4.759483201486001e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.010806451766965e-08
+
+
+# name: err
+# type: scalar
+4.962116396264066e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.949292344243757e-08
+
+
+# name: err
+# type: scalar
+5.057024955206796e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.063674508013443e-08
+
+
+# name: err
+# type: scalar
+5.041038325966247e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.225157901499061e-08
+
+
+# name: err
+# type: scalar
+6.190732468933947e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.02153914811383e-08
+
+
+# name: err
+# type: scalar
+7.14459632690818e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.298850730543505e-08
+
+
+# name: err
+# type: scalar
+5.305210360009094e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.862187285837448e-08
+
+
+# name: err
+# type: scalar
+5.873610076705739e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.993664841144283e-08
+
+
+# name: err
+# type: scalar
+5.060130948958039e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.570756633472138e-08
+
+
+# name: err
+# type: scalar
+4.526669110746174e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.913169730722969e-08
+
+
+# name: err
+# type: scalar
+4.960860978706302e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.220872693332649e-08
+
+
+# name: err
+# type: scalar
+6.087786995660502e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.991003261879589e-08
+
+
+# name: err
+# type: scalar
+4.990102996954133e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.941920385300588e-08
+
+
+# name: err
+# type: scalar
+4.952489915722957e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.967621276009634e-08
+
+
+# name: err
+# type: scalar
+6.01514974248259e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.354330756391418e-08
+
+
+# name: err
+# type: scalar
+5.336423302572491e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.199156570008067e-08
+
+
+# name: err
+# type: scalar
+8.269688956870577e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.869575280151517e-08
+
+
+# name: err
+# type: scalar
+4.86638643945702e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.822636994411317e-08
+
+
+# name: err
+# type: scalar
+7.83222874734498e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.648757241855243e-08
+
+
+# name: err
+# type: scalar
+5.655505204912773e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.872654791709433e-08
+
+
+# name: err
+# type: scalar
+5.810480190847551e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.488064380065615e-08
+
+
+# name: err
+# type: scalar
+5.524610264973794e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.587171788478444e-08
+
+
+# name: err
+# type: scalar
+5.672384931625173e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.053874156044459e-08
+
+
+# name: err
+# type: scalar
+5.982591414555661e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.961428592159408e-08
+
+
+# name: err
+# type: scalar
+4.848899885742022e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.105633429919576e-08
+
+
+# name: err
+# type: scalar
+5.112556486135328e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.902659967548707e-08
+
+
+# name: err
+# type: scalar
+7.917748995051528e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.585444154614742e-08
+
+
+# name: err
+# type: scalar
+5.572849213673755e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.796366797764417e-08
+
+
+# name: err
+# type: scalar
+4.862698881124826e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.132467858700733e-08
+
+
+# name: err
+# type: scalar
+5.093156337242569e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.063606207987075e-08
+
+
+# name: err
+# type: scalar
+5.985880162343489e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.666860125112801e-08
+
+
+# name: err
+# type: scalar
+4.71685793129504e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.751501008861944e-08
+
+
+# name: err
+# type: scalar
+6.867756688199619e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.832126108855813e-08
+
+
+# name: err
+# type: scalar
+4.868277889385154e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.115126467735699e-08
+
+
+# name: err
+# type: scalar
+7.154263208703834e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.907851146408511e-08
+
+
+# name: err
+# type: scalar
+6.792017162376238e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.104966761344064e-08
+
+
+# name: err
+# type: scalar
+5.042132365107785e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.5269169704192e-08
+
+
+# name: err
+# type: scalar
+4.514651172330097e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.099751205259939e-08
+
+
+# name: err
+# type: scalar
+8.877741689059138e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.794526930151494e-08
+
+
+# name: err
+# type: scalar
+4.712679914609826e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.728437245262693e-08
+
+
+# name: err
+# type: scalar
+4.642735680517231e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.229315261759097e-08
+
+
+# name: err
+# type: scalar
+5.238014760621472e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.587800219315254e-08
+
+
+# name: err
+# type: scalar
+7.697116508372384e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.560468520511885e-08
+
+
+# name: err
+# type: scalar
+5.566204649539792e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.710109876273266e-08
+
+
+# name: err
+# type: scalar
+4.724993046964477e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.275845427483875e-08
+
+
+# name: err
+# type: scalar
+5.310991904612296e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.834504624931069e-08
+
+
+# name: err
+# type: scalar
+6.794973175381123e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.873033506985085e-08
+
+
+# name: err
+# type: scalar
+6.812089872047095e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.599727783226757e-08
+
+
+# name: err
+# type: scalar
+5.691009943174397e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.358488991801278e-08
+
+
+# name: err
+# type: scalar
+5.40809508768682e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.898070218353545e-08
+
+
+# name: err
+# type: scalar
+4.899258986401662e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.630271131466919e-08
+
+
+# name: err
+# type: scalar
+6.506175207838149e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.768437803521166e-08
+
+
+# name: err
+# type: scalar
+6.716600490021069e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.188872880090766e-08
+
+
+# name: err
+# type: scalar
+5.099686389533643e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.039518151062843e-08
+
+
+# name: err
+# type: scalar
+6.066393627404401e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.908282714555596e-08
+
+
+# name: err
+# type: scalar
+6.883365580972456e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.265280671545311e-08
+
+
+# name: err
+# type: scalar
+5.288077266905411e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.793218338695398e-08
+
+
+# name: err
+# type: scalar
+4.790152204293166e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.772954687679126e-08
+
+
+# name: err
+# type: scalar
+6.75981495967533e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.695417088830256e-08
+
+
+# name: err
+# type: scalar
+5.688917464616468e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.202957240784581e-08
+
+
+# name: err
+# type: scalar
+5.21123352113909e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.590122458240655e-08
+
+
+# name: err
+# type: scalar
+4.563965975843556e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.28747955024533e-08
+
+
+# name: err
+# type: scalar
+5.343709032770626e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.813627613481008e-08
+
+
+# name: err
+# type: scalar
+6.823326185813529e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.886330854505966e-08
+
+
+# name: err
+# type: scalar
+4.957543031995396e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.989805756756249e-08
+
+
+# name: err
+# type: scalar
+5.129856496460201e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.438387889434943e-08
+
+
+# name: err
+# type: scalar
+5.406946073671177e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.315997374938143e-08
+
+
+# name: err
+# type: scalar
+6.280941708490585e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.97206691211495e-08
+
+
+# name: err
+# type: scalar
+5.054953895787853e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+4.985364132034871e-08
+
+
+# name: err
+# type: scalar
+4.943195906185544e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.078128827801427e-08
+
+
+# name: err
+# type: scalar
+6.064031134159209e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.501064018375355e-08
+
+
+# name: err
+# type: scalar
+5.468153431123464e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.361173890455071e-08
+
+
+# name: err
+# type: scalar
+5.392488709140039e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.219068650655857e-08
+
+
+# name: err
+# type: scalar
+5.205884676053556e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.087219855630781e-08
+
+
+# name: err
+# type: scalar
+9.238901888562893e-10
+
+
+
+
+
+
+
+# name: Ne
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.321174852913824e-07
+
+
+# name: err
+# type: scalar
+2.343934574973096e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.394747136817956e-07
+
+
+# name: err
+# type: scalar
+2.409967200662754e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.462623568497135e-07
+
+
+# name: err
+# type: scalar
+2.468574303356671e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.927738605029111e-07
+
+
+# name: err
+# type: scalar
+2.934149514756153e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.582423399031774e-07
+
+
+# name: err
+# type: scalar
+2.575916484872101e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.857872059925526e-07
+
+
+# name: err
+# type: scalar
+1.853064198325423e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.784903011450686e-07
+
+
+# name: err
+# type: scalar
+2.77380422129304e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.840562922920554e-07
+
+
+# name: err
+# type: scalar
+2.824532305801265e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.569308828586743e-07
+
+
+# name: err
+# type: scalar
+2.585100636199669e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.332639416080589e-07
+
+
+# name: err
+# type: scalar
+2.285003619651754e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.812977920267131e-07
+
+
+# name: err
+# type: scalar
+2.824483843479985e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.158250136990623e-07
+
+
+# name: err
+# type: scalar
+2.15405883817888e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.230130984897846e-07
+
+
+# name: err
+# type: scalar
+2.225868105308457e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.331023282072079e-07
+
+
+# name: err
+# type: scalar
+2.296399380475265e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.217901756007444e-07
+
+
+# name: err
+# type: scalar
+2.206661508467937e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.843317559641188e-07
+
+
+# name: err
+# type: scalar
+2.883841056129629e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.542478407417055e-07
+
+
+# name: err
+# type: scalar
+2.568785836671724e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.625915233267927e-07
+
+
+# name: err
+# type: scalar
+2.653928509224865e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.248326689230156e-07
+
+
+# name: err
+# type: scalar
+3.227832664994552e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.16949599746973e-07
+
+
+# name: err
+# type: scalar
+2.163686687426623e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.221641938346307e-07
+
+
+# name: err
+# type: scalar
+2.204698598252413e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.764993292820419e-07
+
+
+# name: err
+# type: scalar
+2.75340297988659e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.64478068335184e-07
+
+
+# name: err
+# type: scalar
+2.603795727915211e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.733005742139897e-07
+
+
+# name: err
+# type: scalar
+2.690649892859945e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.448810975269371e-07
+
+
+# name: err
+# type: scalar
+2.445742971689569e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.078094326534032e-07
+
+
+# name: err
+# type: scalar
+2.046291422636966e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.268507277264591e-07
+
+
+# name: err
+# type: scalar
+2.28506714597804e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.38337966312164e-07
+
+
+# name: err
+# type: scalar
+2.388440635124128e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.36307197736561e-07
+
+
+# name: err
+# type: scalar
+2.344056122435893e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.512948642176079e-07
+
+
+# name: err
+# type: scalar
+2.480823041755516e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.804322775494957e-07
+
+
+# name: err
+# type: scalar
+2.798936675017937e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.520515899505348e-07
+
+
+# name: err
+# type: scalar
+2.52591647291707e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.51119801085658e-07
+
+
+# name: err
+# type: scalar
+2.49158982360753e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.255697931789872e-07
+
+
+# name: err
+# type: scalar
+2.251830876219371e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.902466391452191e-07
+
+
+# name: err
+# type: scalar
+1.898807012414512e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.087006338326522e-07
+
+
+# name: err
+# type: scalar
+2.084861616535813e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.7170917025538e-07
+
+
+# name: err
+# type: scalar
+2.733938738584228e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.116641868354999e-07
+
+
+# name: err
+# type: scalar
+2.118605341286253e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.181052355630571e-07
+
+
+# name: err
+# type: scalar
+2.208015974595248e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.821363395044874e-07
+
+
+# name: err
+# type: scalar
+2.807922225997093e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.300653470311943e-07
+
+
+# name: err
+# type: scalar
+2.299399255972575e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.329293717083849e-07
+
+
+# name: err
+# type: scalar
+3.356112495077087e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.127389708828509e-07
+
+
+# name: err
+# type: scalar
+2.146513921686083e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.546921654528185e-07
+
+
+# name: err
+# type: scalar
+3.514662827947169e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.608700069561946e-07
+
+
+# name: err
+# type: scalar
+2.578320683228814e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.762369633018113e-07
+
+
+# name: err
+# type: scalar
+2.733760330262153e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.532250748355772e-07
+
+
+# name: err
+# type: scalar
+2.578768796621797e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.597495167977431e-07
+
+
+# name: err
+# type: scalar
+2.600522898300079e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.862593613541413e-07
+
+
+# name: err
+# type: scalar
+2.833140972640896e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.164867339722852e-07
+
+
+# name: err
+# type: scalar
+2.158826639737702e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.272849598155766e-07
+
+
+# name: err
+# type: scalar
+2.28762714941003e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.307214250962882e-07
+
+
+# name: err
+# type: scalar
+3.321269982281936e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.377355713349452e-07
+
+
+# name: err
+# type: scalar
+2.367744556112728e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.145087536059393e-07
+
+
+# name: err
+# type: scalar
+2.187373281597291e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.257576919872317e-07
+
+
+# name: err
+# type: scalar
+2.253536197447767e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.6098876252609e-07
+
+
+# name: err
+# type: scalar
+2.602126384621965e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.018184359983428e-07
+
+
+# name: err
+# type: scalar
+2.015612035990975e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.891859628929048e-07
+
+
+# name: err
+# type: scalar
+2.942628906761993e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.195199481992089e-07
+
+
+# name: err
+# type: scalar
+2.214787230820812e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.85203753134182e-07
+
+
+# name: err
+# type: scalar
+2.865043048390897e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.838916338580253e-07
+
+
+# name: err
+# type: scalar
+2.920930812945601e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.167978985379489e-07
+
+
+# name: err
+# type: scalar
+2.150431761175514e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.814236473836728e-07
+
+
+# name: err
+# type: scalar
+1.81816093416153e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.315308381592309e-07
+
+
+# name: err
+# type: scalar
+3.320583205515247e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.048782155673995e-07
+
+
+# name: err
+# type: scalar
+2.050519173147287e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.956653935567229e-07
+
+
+# name: err
+# type: scalar
+1.923145718708894e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.252156180307383e-07
+
+
+# name: err
+# type: scalar
+2.291878398631591e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.039269344489909e-07
+
+
+# name: err
+# type: scalar
+3.054149709483141e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.456283118819681e-07
+
+
+# name: err
+# type: scalar
+2.450597015792719e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.045763307252708e-07
+
+
+# name: err
+# type: scalar
+2.060214969889675e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.308013969376615e-07
+
+
+# name: err
+# type: scalar
+2.299878473717166e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.011026595895719e-07
+
+
+# name: err
+# type: scalar
+2.974242766290935e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.067674919711675e-07
+
+
+# name: err
+# type: scalar
+3.076719233144735e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.814830101695061e-07
+
+
+# name: err
+# type: scalar
+2.858146794122504e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.613666686563503e-07
+
+
+# name: err
+# type: scalar
+2.599121879174671e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.168811058844215e-07
+
+
+# name: err
+# type: scalar
+2.191469341109704e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.810017257914242e-07
+
+
+# name: err
+# type: scalar
+2.811177883791154e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.939472017755051e-07
+
+
+# name: err
+# type: scalar
+2.929408217379993e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.1446128963275e-07
+
+
+# name: err
+# type: scalar
+2.138084094478983e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.696564018818913e-07
+
+
+# name: err
+# type: scalar
+2.684308842104342e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.188391955826446e-07
+
+
+# name: err
+# type: scalar
+3.164972066778662e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.514152739332173e-07
+
+
+# name: err
+# type: scalar
+2.584219108996536e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.021984442742063e-07
+
+
+# name: err
+# type: scalar
+2.005508829933092e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.865783916457899e-07
+
+
+# name: err
+# type: scalar
+2.848844958238054e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.443415376300853e-07
+
+
+# name: err
+# type: scalar
+2.41995358255341e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.212173312211527e-07
+
+
+# name: err
+# type: scalar
+2.18956552670193e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.93435696241208e-07
+
+
+# name: err
+# type: scalar
+1.927652475445923e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.586802598021203e-07
+
+
+# name: err
+# type: scalar
+2.575423852786915e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.229445012553689e-07
+
+
+# name: err
+# type: scalar
+3.176903135981586e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.281357035874348e-07
+
+
+# name: err
+# type: scalar
+2.257893578168968e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.267125386007921e-07
+
+
+# name: err
+# type: scalar
+2.278877366864155e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.371013056318633e-07
+
+
+# name: err
+# type: scalar
+2.365319142852422e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.93135229932714e-07
+
+
+# name: err
+# type: scalar
+2.930187184238379e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.353882700780116e-07
+
+
+# name: err
+# type: scalar
+2.340667716941578e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.271996578623651e-07
+
+
+# name: err
+# type: scalar
+2.275490525101903e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.703544975699381e-07
+
+
+# name: err
+# type: scalar
+2.712597996602972e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.374684162114328e-07
+
+
+# name: err
+# type: scalar
+2.336077691228606e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.5239804246726e-07
+
+
+# name: err
+# type: scalar
+2.491145499722266e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+2.500738440563577e-07
+
+
+# name: err
+# type: scalar
+2.49368249953859e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+3.580142430506607e-07
+
+
+# name: err
+# type: scalar
+3.617192022856103e-09
+
+
+
+
+
+
+
+# name: Ar
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003886299885218808
+
+
+# name: err
+# type: scalar
+3.925937600856573e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004732042366200126
+
+
+# name: err
+# type: scalar
+4.713850028966689e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003892571557895461
+
+
+# name: err
+# type: scalar
+3.88014135995028e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004925486333256395
+
+
+# name: err
+# type: scalar
+4.965096305978419e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003855615065896963
+
+
+# name: err
+# type: scalar
+3.917047508307056e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003077441167851979
+
+
+# name: err
+# type: scalar
+3.020228634256546e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003387098225299742
+
+
+# name: err
+# type: scalar
+3.420905879821917e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004413975928242529
+
+
+# name: err
+# type: scalar
+4.413604674844213e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004755924912060715
+
+
+# name: err
+# type: scalar
+4.704035168541127e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004717908928860096
+
+
+# name: err
+# type: scalar
+4.716172087435158e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004533182248064517
+
+
+# name: err
+# type: scalar
+4.489615693500495e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003284362383277229
+
+
+# name: err
+# type: scalar
+3.275495897120629e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004652418526037746
+
+
+# name: err
+# type: scalar
+4.628135370146108e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004981920392455404
+
+
+# name: err
+# type: scalar
+4.999854830686504e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000459204676106745
+
+
+# name: err
+# type: scalar
+4.609111690622038e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004590133632517132
+
+
+# name: err
+# type: scalar
+4.579126711019773e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003390373668366796
+
+
+# name: err
+# type: scalar
+3.337326722044053e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004873170969940457
+
+
+# name: err
+# type: scalar
+4.878024805204041e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003561370426873444
+
+
+# name: err
+# type: scalar
+3.579052531385723e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000314883478086753
+
+
+# name: err
+# type: scalar
+3.139725318357377e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003106197738255153
+
+
+# name: err
+# type: scalar
+3.120076477156785e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004411523987671138
+
+
+# name: err
+# type: scalar
+4.434201567566298e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003768585513873583
+
+
+# name: err
+# type: scalar
+3.78358872069437e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003770533171460587
+
+
+# name: err
+# type: scalar
+3.766063461032547e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003329604846707954
+
+
+# name: err
+# type: scalar
+3.309722643603514e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003745997669465198
+
+
+# name: err
+# type: scalar
+3.702313458199078e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004734967146931043
+
+
+# name: err
+# type: scalar
+4.754044968502219e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004792568021888929
+
+
+# name: err
+# type: scalar
+4.806121103241213e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004059281870708789
+
+
+# name: err
+# type: scalar
+4.090961429227466e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003163032572501969
+
+
+# name: err
+# type: scalar
+3.144342353766613e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003251127301225099
+
+
+# name: err
+# type: scalar
+3.289351816891579e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000404028238122262
+
+
+# name: err
+# type: scalar
+3.940726329324644e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000426749708330522
+
+
+# name: err
+# type: scalar
+4.25021614974071e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003172550756262292
+
+
+# name: err
+# type: scalar
+3.204461296523701e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003244596621645996
+
+
+# name: err
+# type: scalar
+3.278905328986956e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003053616587572888
+
+
+# name: err
+# type: scalar
+2.956687807224592e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000473799621428037
+
+
+# name: err
+# type: scalar
+4.759763394786125e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003730452948930967
+
+
+# name: err
+# type: scalar
+3.744555288797544e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000341845811447868
+
+
+# name: err
+# type: scalar
+3.40705973188448e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004420411956813346
+
+
+# name: err
+# type: scalar
+4.414249247108458e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004119219584754777
+
+
+# name: err
+# type: scalar
+4.111447075790958e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004343776847513069
+
+
+# name: err
+# type: scalar
+4.388264417694407e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003833989173138211
+
+
+# name: err
+# type: scalar
+3.833969918440208e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0005362335063254638
+
+
+# name: err
+# type: scalar
+5.399929499493731e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003319795818661415
+
+
+# name: err
+# type: scalar
+3.314095075804909e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0005256167805120294
+
+
+# name: err
+# type: scalar
+5.184087475009773e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004777234784747735
+
+
+# name: err
+# type: scalar
+4.759680606654439e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003916059165675133
+
+
+# name: err
+# type: scalar
+3.913433487408236e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004774487888266598
+
+
+# name: err
+# type: scalar
+4.802649896195325e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000396476413767614
+
+
+# name: err
+# type: scalar
+3.915718865588889e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003977040552541827
+
+
+# name: err
+# type: scalar
+3.968787975174055e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004202946137052587
+
+
+# name: err
+# type: scalar
+4.219105455480036e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003915409202258331
+
+
+# name: err
+# type: scalar
+3.89767733824599e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004368173078109796
+
+
+# name: err
+# type: scalar
+4.375152884264904e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003572084414760949
+
+
+# name: err
+# type: scalar
+3.571386100725639e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004025130175310787
+
+
+# name: err
+# type: scalar
+4.020238802904518e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003306254387655982
+
+
+# name: err
+# type: scalar
+3.303213292732405e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004776079744951994
+
+
+# name: err
+# type: scalar
+4.622783277700326e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004365325465872708
+
+
+# name: err
+# type: scalar
+4.379824684115018e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003625694076454961
+
+
+# name: err
+# type: scalar
+3.559495675146164e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004947252145991549
+
+
+# name: err
+# type: scalar
+4.933049096950478e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003302605885040869
+
+
+# name: err
+# type: scalar
+3.35710910152895e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0002747975944757211
+
+
+# name: err
+# type: scalar
+2.759010570923685e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003382216551147655
+
+
+# name: err
+# type: scalar
+3.44547360729221e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003721838943879793
+
+
+# name: err
+# type: scalar
+3.692166177283715e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003071615431855613
+
+
+# name: err
+# type: scalar
+3.072605974791937e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003646396534263653
+
+
+# name: err
+# type: scalar
+3.667404873105891e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003338163456138695
+
+
+# name: err
+# type: scalar
+3.383756710525471e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000331676481686586
+
+
+# name: err
+# type: scalar
+3.337229701486311e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003857240729163562
+
+
+# name: err
+# type: scalar
+3.922717716231354e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004144809790972574
+
+
+# name: err
+# type: scalar
+4.156959530831128e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000378760578184934
+
+
+# name: err
+# type: scalar
+3.824750402138213e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0005394383716405554
+
+
+# name: err
+# type: scalar
+5.367420608535533e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004879389492979105
+
+
+# name: err
+# type: scalar
+4.894346029697062e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003980616941512503
+
+
+# name: err
+# type: scalar
+3.985741887867057e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003591245870934595
+
+
+# name: err
+# type: scalar
+3.597888190560351e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004399510027495997
+
+
+# name: err
+# type: scalar
+4.387600306396506e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003534303661414338
+
+
+# name: err
+# type: scalar
+3.508342463719313e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003065261377081786
+
+
+# name: err
+# type: scalar
+3.068737088464147e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004622500782314633
+
+
+# name: err
+# type: scalar
+4.599854327110039e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004618483440482635
+
+
+# name: err
+# type: scalar
+4.674567649937884e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0005012017151254224
+
+
+# name: err
+# type: scalar
+4.965780478493168e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000285803632088573
+
+
+# name: err
+# type: scalar
+2.882474908651858e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003461885579989481
+
+
+# name: err
+# type: scalar
+3.512040804903276e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004097955599992909
+
+
+# name: err
+# type: scalar
+4.02897196743217e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003439526717822686
+
+
+# name: err
+# type: scalar
+3.437290828561803e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003375429686297606
+
+
+# name: err
+# type: scalar
+3.36244267053381e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004681103103277282
+
+
+# name: err
+# type: scalar
+4.67167154289198e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0005301267688412893
+
+
+# name: err
+# type: scalar
+5.435283527818763e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003784971605006273
+
+
+# name: err
+# type: scalar
+3.773945453439638e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000308685521365954
+
+
+# name: err
+# type: scalar
+3.034010840098147e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003938747125616417
+
+
+# name: err
+# type: scalar
+3.917645819805377e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004627957249498751
+
+
+# name: err
+# type: scalar
+4.629835959545549e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004531179121300349
+
+
+# name: err
+# type: scalar
+4.507814719203e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004048820070164335
+
+
+# name: err
+# type: scalar
+4.002335540912058e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003350605392970359
+
+
+# name: err
+# type: scalar
+3.375688228847537e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.000378778106382942
+
+
+# name: err
+# type: scalar
+3.750801402761968e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0003699231011093101
+
+
+# name: err
+# type: scalar
+3.683743262344137e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004178080554210399
+
+
+# name: err
+# type: scalar
+4.205039228419273e-06
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+0.0004470646730402596
+
+
+# name: err
+# type: scalar
+4.414867537347575e-06
+
+
+
+
+
+
+
+# name: Kr
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.921735994598149e-08
+
+
+# name: err
+# type: scalar
+8.944659952873336e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.138972197959079e-07
+
+
+# name: err
+# type: scalar
+1.13534264005549e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.740141713148455e-08
+
+
+# name: err
+# type: scalar
+8.659119663713818e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.152603204603707e-07
+
+
+# name: err
+# type: scalar
+1.153917688392603e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.78863375065848e-08
+
+
+# name: err
+# type: scalar
+8.691698961400211e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.635772179084787e-08
+
+
+# name: err
+# type: scalar
+6.661889989860303e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.178957428451227e-08
+
+
+# name: err
+# type: scalar
+6.974343231933637e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.005940019213952e-07
+
+
+# name: err
+# type: scalar
+9.9974727559377e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.125728870599275e-07
+
+
+# name: err
+# type: scalar
+1.116631738027135e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.153291571721506e-07
+
+
+# name: err
+# type: scalar
+1.152047642879756e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.031398322436974e-07
+
+
+# name: err
+# type: scalar
+1.02582935504093e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.195728762547731e-08
+
+
+# name: err
+# type: scalar
+7.133664993179992e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.139301007738589e-07
+
+
+# name: err
+# type: scalar
+1.130710239325361e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.256324817262116e-07
+
+
+# name: err
+# type: scalar
+1.242585751276813e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.11440883606766e-07
+
+
+# name: err
+# type: scalar
+1.127537290809372e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.049251709520614e-07
+
+
+# name: err
+# type: scalar
+1.037261275882238e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.01444821686336e-08
+
+
+# name: err
+# type: scalar
+6.94171959139274e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.142108073356733e-07
+
+
+# name: err
+# type: scalar
+1.157849079427383e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.031730243355611e-08
+
+
+# name: err
+# type: scalar
+7.063222745250078e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.651740912291388e-08
+
+
+# name: err
+# type: scalar
+6.690740184621279e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.681924432427838e-08
+
+
+# name: err
+# type: scalar
+6.591212546249904e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.003520359481308e-07
+
+
+# name: err
+# type: scalar
+1.012218622107915e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.205285603753721e-08
+
+
+# name: err
+# type: scalar
+8.217406598146823e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.065582229017092e-08
+
+
+# name: err
+# type: scalar
+8.078232009956538e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.022001458794712e-08
+
+
+# name: err
+# type: scalar
+6.925898871013213e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.673232114835722e-08
+
+
+# name: err
+# type: scalar
+8.574060956123293e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.153108772244594e-07
+
+
+# name: err
+# type: scalar
+1.164205789164939e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.159762221981451e-07
+
+
+# name: err
+# type: scalar
+1.167764783842099e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.311342697587921e-08
+
+
+# name: err
+# type: scalar
+9.439947594752772e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.425986911527411e-08
+
+
+# name: err
+# type: scalar
+6.438764979432656e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.57175464652278e-08
+
+
+# name: err
+# type: scalar
+6.586228322651893e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.845543248617192e-08
+
+
+# name: err
+# type: scalar
+8.749108206297659e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.711012382812901e-08
+
+
+# name: err
+# type: scalar
+9.850547287476465e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.768804457183314e-08
+
+
+# name: err
+# type: scalar
+6.780389380748628e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.449671127078886e-08
+
+
+# name: err
+# type: scalar
+7.408028194102934e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.232396153338317e-08
+
+
+# name: err
+# type: scalar
+6.225574877778758e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.108380386442189e-07
+
+
+# name: err
+# type: scalar
+1.118773193246559e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.611327715607064e-08
+
+
+# name: err
+# type: scalar
+8.637783730995331e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.372588061542741e-08
+
+
+# name: err
+# type: scalar
+7.452440255044475e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.898239319895424e-08
+
+
+# name: err
+# type: scalar
+9.971621402995009e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.512007868430661e-08
+
+
+# name: err
+# type: scalar
+9.603990970018306e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.504825175140236e-08
+
+
+# name: err
+# type: scalar
+9.413969797492047e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.889809883013239e-08
+
+
+# name: err
+# type: scalar
+8.870541105877735e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.242790652905117e-07
+
+
+# name: err
+# type: scalar
+1.239947784853256e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.637092091625302e-08
+
+
+# name: err
+# type: scalar
+6.771644652714302e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.261724700557539e-07
+
+
+# name: err
+# type: scalar
+1.25241614914046e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.138779021959715e-07
+
+
+# name: err
+# type: scalar
+1.133008698310376e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.533269897271344e-08
+
+
+# name: err
+# type: scalar
+8.61530117817293e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.121408385344219e-07
+
+
+# name: err
+# type: scalar
+1.117867555436634e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.055917434003733e-08
+
+
+# name: err
+# type: scalar
+9.110967202490333e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.233349353729379e-08
+
+
+# name: err
+# type: scalar
+9.140313887299783e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.97327897430602e-08
+
+
+# name: err
+# type: scalar
+8.89155710120143e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.904887626234502e-08
+
+
+# name: err
+# type: scalar
+8.861211822919111e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.05395319064444e-07
+
+
+# name: err
+# type: scalar
+1.054370986046158e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.889883727915186e-08
+
+
+# name: err
+# type: scalar
+7.926635108801338e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.031207506175359e-08
+
+
+# name: err
+# type: scalar
+8.98939534689538e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.304686341485733e-08
+
+
+# name: err
+# type: scalar
+7.353928973100261e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.065648920782753e-07
+
+
+# name: err
+# type: scalar
+1.055504339158752e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.049905691658228e-07
+
+
+# name: err
+# type: scalar
+1.05207023099352e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.307880600070604e-08
+
+
+# name: err
+# type: scalar
+7.332731128489708e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.160511279535023e-07
+
+
+# name: err
+# type: scalar
+1.157001665874758e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.343270293615201e-08
+
+
+# name: err
+# type: scalar
+7.386174686862971e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+5.910305429261307e-08
+
+
+# name: err
+# type: scalar
+5.907383004442131e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.69422922384858e-08
+
+
+# name: err
+# type: scalar
+6.596154448857018e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.570093967406104e-08
+
+
+# name: err
+# type: scalar
+8.530206847827418e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.76518071847865e-08
+
+
+# name: err
+# type: scalar
+6.74952274051023e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.249383435715133e-08
+
+
+# name: err
+# type: scalar
+8.19653283403386e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.610589411378284e-08
+
+
+# name: err
+# type: scalar
+6.619105681337814e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.942583642679656e-08
+
+
+# name: err
+# type: scalar
+6.998489284282199e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.224311794162932e-08
+
+
+# name: err
+# type: scalar
+9.251361932148368e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.934031246846243e-08
+
+
+# name: err
+# type: scalar
+9.745906642147471e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.978673606092079e-08
+
+
+# name: err
+# type: scalar
+7.981373172951777e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.27780694783263e-07
+
+
+# name: err
+# type: scalar
+1.276816619828523e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.150956971028388e-07
+
+
+# name: err
+# type: scalar
+1.139487716544214e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.894129084257799e-08
+
+
+# name: err
+# type: scalar
+8.806055175880732e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.066362405185753e-08
+
+
+# name: err
+# type: scalar
+8.065880123523953e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.009313868520405e-07
+
+
+# name: err
+# type: scalar
+9.938933440824415e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.0415990879101e-08
+
+
+# name: err
+# type: scalar
+7.050104867065874e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.423545774119157e-08
+
+
+# name: err
+# type: scalar
+6.517238581632775e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.05872172262166e-07
+
+
+# name: err
+# type: scalar
+1.073773234267224e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.03367387891555e-07
+
+
+# name: err
+# type: scalar
+1.042948398853187e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.19945287031968e-07
+
+
+# name: err
+# type: scalar
+1.195118897907132e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.082504098443784e-08
+
+
+# name: err
+# type: scalar
+6.07905936056726e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.071805431504438e-08
+
+
+# name: err
+# type: scalar
+7.167849697981701e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.177424836560226e-08
+
+
+# name: err
+# type: scalar
+9.221571738428203e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.574054258306804e-08
+
+
+# name: err
+# type: scalar
+7.604778316697382e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.642286203257171e-08
+
+
+# name: err
+# type: scalar
+7.636234650517257e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.095251776175616e-07
+
+
+# name: err
+# type: scalar
+1.102403945089944e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.267079135846968e-07
+
+
+# name: err
+# type: scalar
+1.285487887451597e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.620847683435924e-08
+
+
+# name: err
+# type: scalar
+8.539118943958541e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.264137091290555e-08
+
+
+# name: err
+# type: scalar
+6.232585133796672e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.952783427341214e-08
+
+
+# name: err
+# type: scalar
+8.910248591872444e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.061184189082007e-07
+
+
+# name: err
+# type: scalar
+1.052947069701908e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.091664316089145e-07
+
+
+# name: err
+# type: scalar
+1.078384962138729e-09
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.129681992906768e-08
+
+
+# name: err
+# type: scalar
+9.23778441711498e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+6.887313357828797e-08
+
+
+# name: err
+# type: scalar
+6.840904433037859e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.465957521747002e-08
+
+
+# name: err
+# type: scalar
+8.427643986769691e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.909843185256153e-08
+
+
+# name: err
+# type: scalar
+7.999878788622882e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.683886231868078e-08
+
+
+# name: err
+# type: scalar
+9.619537037786346e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.279550910016931e-08
+
+
+# name: err
+# type: scalar
+9.257948902202373e-10
+
+
+
+
+
+
+
+# name: Xe
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.269477017293592e-08
+
+
+# name: err
+# type: scalar
+1.260102554696833e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.683064345764182e-08
+
+
+# name: err
+# type: scalar
+1.697001187935532e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.194215158574411e-08
+
+
+# name: err
+# type: scalar
+1.197180303870985e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.680729060384249e-08
+
+
+# name: err
+# type: scalar
+1.676992335342784e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.202241479253693e-08
+
+
+# name: err
+# type: scalar
+1.200819471892179e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.854161689762108e-09
+
+
+# name: err
+# type: scalar
+8.993818626432921e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.868716370312955e-09
+
+
+# name: err
+# type: scalar
+8.916853487032739e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.419757552800216e-08
+
+
+# name: err
+# type: scalar
+1.419302151279727e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.623223900537943e-08
+
+
+# name: err
+# type: scalar
+1.655312891102743e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.753046555095114e-08
+
+
+# name: err
+# type: scalar
+1.746133659520971e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.486183636442017e-08
+
+
+# name: err
+# type: scalar
+1.471112825033798e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.562296535299187e-09
+
+
+# name: err
+# type: scalar
+9.580826922320338e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.726418403286436e-08
+
+
+# name: err
+# type: scalar
+1.711132629730644e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.918959371149377e-08
+
+
+# name: err
+# type: scalar
+1.923069759440515e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.710197597150954e-08
+
+
+# name: err
+# type: scalar
+1.70864581919628e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.467283940085011e-08
+
+
+# name: err
+# type: scalar
+1.464863662627117e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.005406650653524e-09
+
+
+# name: err
+# type: scalar
+9.027735159656279e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.698066923420472e-08
+
+
+# name: err
+# type: scalar
+1.710164484450254e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.843365560772117e-09
+
+
+# name: err
+# type: scalar
+8.854814515588728e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.811404521635252e-09
+
+
+# name: err
+# type: scalar
+8.783129203853761e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.528906348361963e-09
+
+
+# name: err
+# type: scalar
+8.59021106568931e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.444580261149841e-08
+
+
+# name: err
+# type: scalar
+1.444800732063764e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.118384637622871e-08
+
+
+# name: err
+# type: scalar
+1.109240176715259e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.080665969402728e-08
+
+
+# name: err
+# type: scalar
+1.079631147279847e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.97290820741879e-09
+
+
+# name: err
+# type: scalar
+8.990878812989977e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.215177964326814e-08
+
+
+# name: err
+# type: scalar
+1.219761116013415e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.765234503339809e-08
+
+
+# name: err
+# type: scalar
+1.769640425100602e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.776771584652766e-08
+
+
+# name: err
+# type: scalar
+1.762487317988316e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.348071434054962e-08
+
+
+# name: err
+# type: scalar
+1.343734897507199e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.16772265704354e-09
+
+
+# name: err
+# type: scalar
+8.231823794512233e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.35046056951647e-09
+
+
+# name: err
+# type: scalar
+8.302817783003808e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.213727231830899e-08
+
+
+# name: err
+# type: scalar
+1.199328578204821e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.41787809195088e-08
+
+
+# name: err
+# type: scalar
+1.421371286204895e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.779581663580158e-09
+
+
+# name: err
+# type: scalar
+8.832972321794884e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.038235970674852e-08
+
+
+# name: err
+# type: scalar
+1.02420197854234e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.010412661443533e-09
+
+
+# name: err
+# type: scalar
+8.075921518852819e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.642346300864396e-08
+
+
+# name: err
+# type: scalar
+1.647794708323756e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.252212842539727e-08
+
+
+# name: err
+# type: scalar
+1.22695527273031e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.012655556184379e-08
+
+
+# name: err
+# type: scalar
+1.002470382206563e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.41715705215995e-08
+
+
+# name: err
+# type: scalar
+1.406608238544544e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.397644112029806e-08
+
+
+# name: err
+# type: scalar
+1.38903879364281e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.285796754544995e-08
+
+
+# name: err
+# type: scalar
+1.282256036898561e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.254279682449457e-08
+
+
+# name: err
+# type: scalar
+1.263171854595385e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.818858152663355e-08
+
+
+# name: err
+# type: scalar
+1.815496229594788e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.52652233873801e-09
+
+
+# name: err
+# type: scalar
+8.570452933933259e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.900101945865593e-08
+
+
+# name: err
+# type: scalar
+1.900258014635676e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.692139523040418e-08
+
+
+# name: err
+# type: scalar
+1.682466757888694e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.176174883793737e-08
+
+
+# name: err
+# type: scalar
+1.177505558019649e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.638944862395079e-08
+
+
+# name: err
+# type: scalar
+1.629483583850239e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.297476248096662e-08
+
+
+# name: err
+# type: scalar
+1.304871953905789e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.272863229463103e-08
+
+
+# name: err
+# type: scalar
+1.300098000229642e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.181750672114303e-08
+
+
+# name: err
+# type: scalar
+1.186802774697174e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.263267741808762e-08
+
+
+# name: err
+# type: scalar
+1.249059858981142e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.560076133757215e-08
+
+
+# name: err
+# type: scalar
+1.569834024659183e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.088438745392593e-08
+
+
+# name: err
+# type: scalar
+1.084743805249283e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.269762234933473e-08
+
+
+# name: err
+# type: scalar
+1.252486195668297e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.012897567196824e-08
+
+
+# name: err
+# type: scalar
+1.004541137160195e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.529568149690018e-08
+
+
+# name: err
+# type: scalar
+1.516889922108342e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.55384721382125e-08
+
+
+# name: err
+# type: scalar
+1.561001269140249e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.455104636475869e-09
+
+
+# name: err
+# type: scalar
+9.505840552118175e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.726138459640214e-08
+
+
+# name: err
+# type: scalar
+1.710745503422694e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.833004708784465e-09
+
+
+# name: err
+# type: scalar
+1.001425910974422e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.693235079007797e-09
+
+
+# name: err
+# type: scalar
+7.749309128311713e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.101498659287394e-09
+
+
+# name: err
+# type: scalar
+8.051459816621204e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.190892086693086e-08
+
+
+# name: err
+# type: scalar
+1.209933281326075e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.254787236850852e-09
+
+
+# name: err
+# type: scalar
+9.091379892381226e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.141223168001163e-08
+
+
+# name: err
+# type: scalar
+1.131773821636767e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.246744079969951e-09
+
+
+# name: err
+# type: scalar
+8.18783736806547e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.140893712794788e-09
+
+
+# name: err
+# type: scalar
+9.09795391334825e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.348130594868491e-08
+
+
+# name: err
+# type: scalar
+1.341279818284783e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.39851797549174e-08
+
+
+# name: err
+# type: scalar
+1.41488306269718e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.029620756057506e-08
+
+
+# name: err
+# type: scalar
+1.04498967039919e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.943026508969743e-08
+
+
+# name: err
+# type: scalar
+1.924135108626806e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.642116601909372e-08
+
+
+# name: err
+# type: scalar
+1.65540541675439e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.202114395987185e-08
+
+
+# name: err
+# type: scalar
+1.202448113447459e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.100277014071864e-08
+
+
+# name: err
+# type: scalar
+1.111709916255341e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.414803987159919e-08
+
+
+# name: err
+# type: scalar
+1.411336195055474e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.994427192431971e-09
+
+
+# name: err
+# type: scalar
+8.879640826342451e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.434678084534987e-09
+
+
+# name: err
+# type: scalar
+8.540662644769091e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.547509986580918e-08
+
+
+# name: err
+# type: scalar
+1.568126363270104e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.475212406510101e-08
+
+
+# name: err
+# type: scalar
+1.465752160707784e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.81945615630535e-08
+
+
+# name: err
+# type: scalar
+1.792000124438614e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+7.933550929318427e-09
+
+
+# name: err
+# type: scalar
+7.880949206222384e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+9.207176000618987e-09
+
+
+# name: err
+# type: scalar
+9.178232476944324e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.306234110984483e-08
+
+
+# name: err
+# type: scalar
+1.310690024359085e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.045061524593935e-08
+
+
+# name: err
+# type: scalar
+1.038574237512115e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.089244454004444e-08
+
+
+# name: err
+# type: scalar
+1.061849240129755e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.598623160603975e-08
+
+
+# name: err
+# type: scalar
+1.617142567235609e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.939217225159512e-08
+
+
+# name: err
+# type: scalar
+1.927702592817283e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.180678384624681e-08
+
+
+# name: err
+# type: scalar
+1.188960256386827e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.01272708817225e-09
+
+
+# name: err
+# type: scalar
+7.885676731795532e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.248121883828358e-08
+
+
+# name: err
+# type: scalar
+1.255149262119544e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.509523232829639e-08
+
+
+# name: err
+# type: scalar
+1.50108214620669e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.629130855051889e-08
+
+
+# name: err
+# type: scalar
+1.598315241350857e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.332904270522331e-08
+
+
+# name: err
+# type: scalar
+1.313141250176221e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+8.754140739208985e-09
+
+
+# name: err
+# type: scalar
+8.631276529699829e-11
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.177076065210139e-08
+
+
+# name: err
+# type: scalar
+1.172658537949564e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.080443640676145e-08
+
+
+# name: err
+# type: scalar
+1.073933963962969e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.351529149015103e-08
+
+
+# name: err
+# type: scalar
+1.359523610484471e-10
+
+
+
+
+# name: <cell-element>
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: val
+# type: scalar
+1.248949681171545e-08
+
+
+# name: err
+# type: scalar
+1.24029103544641e-10
+
+
+
+
+
+
+
+# name: T
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar
+11.87515497827023
+
+
+# name: <cell-element>
+# type: scalar
+3.511961921972679
+
+
+# name: <cell-element>
+# type: scalar
+13.73621946675591
+
+
+# name: <cell-element>
+# type: scalar
+4.508817766231227
+
+
+# name: <cell-element>
+# type: scalar
+13.63970705103599
+
+
+# name: <cell-element>
+# type: scalar
+21.96805415151982
+
+
+# name: <cell-element>
+# type: scalar
+24.43754316203619
+
+
+# name: <cell-element>
+# type: scalar
+8.806907161058577
+
+
+# name: <cell-element>
+# type: scalar
+4.215357587440526
+
+
+# name: <cell-element>
+# type: scalar
+2.548226755577818
+
+
+# name: <cell-element>
+# type: scalar
+7.684298962699717
+
+
+# name: <cell-element>
+# type: scalar
+20.46297487761938
+
+
+# name: <cell-element>
+# type: scalar
+3.013820245128455
+
+
+# name: <cell-element>
+# type: scalar
+0.05996985649053287
+
+
+# name: <cell-element>
+# type: scalar
+3.00688186646401
+
+
+# name: <cell-element>
+# type: scalar
+8.329034659881072
+
+
+# name: <cell-element>
+# type: scalar
+23.31272488709486
+
+
+# name: <cell-element>
+# type: scalar
+3.669962522750077
+
+
+# name: <cell-element>
+# type: scalar
+25.42190941291679
+
+
+# name: <cell-element>
+# type: scalar
+23.81970063174687
+
+
+# name: <cell-element>
+# type: scalar
+24.74815703447241
+
+
+# name: <cell-element>
+# type: scalar
+8.257137959569397
+
+
+# name: <cell-element>
+# type: scalar
+16.4752979961338
+
+
+# name: <cell-element>
+# type: scalar
+17.52754781315567
+
+
+# name: <cell-element>
+# type: scalar
+23.63192754411489
+
+
+# name: <cell-element>
+# type: scalar
+12.34349427313342
+
+
+# name: <cell-element>
+# type: scalar
+2.198246428519626
+
+
+# name: <cell-element>
+# type: scalar
+2.46569664662477
+
+
+# name: <cell-element>
+# type: scalar
+10.07914537816187
+
+
+# name: <cell-element>
+# type: scalar
+26.69024235345073
+
+
+# name: <cell-element>
+# type: scalar
+27.05087179475215
+
+
+# name: <cell-element>
+# type: scalar
+14.06443984122993
+
+
+# name: <cell-element>
+# type: scalar
+8.306911686827648
+
+
+# name: <cell-element>
+# type: scalar
+24.06290312935439
+
+
+# name: <cell-element>
+# type: scalar
+17.64653367589713
+
+
+# name: <cell-element>
+# type: scalar
+26.68694495634609
+
+
+# name: <cell-element>
+# type: scalar
+4.471454959316753
+
+
+# name: <cell-element>
+# type: scalar
+12.23957328895911
+
+
+# name: <cell-element>
+# type: scalar
+19.28171998649336
+
+
+# name: <cell-element>
+# type: scalar
+9.249108736256078
+
+
+# name: <cell-element>
+# type: scalar
+8.782576496324811
+
+
+# name: <cell-element>
+# type: scalar
+12.433956732952
+
+
+# name: <cell-element>
+# type: scalar
+11.4864061940486
+
+
+# name: <cell-element>
+# type: scalar
+2.519424591137593
+
+
+# name: <cell-element>
+# type: scalar
+26.28048783799072
+
+
+# name: <cell-element>
+# type: scalar
+0.74573000753993
+
+
+# name: <cell-element>
+# type: scalar
+3.836026847164877
+
+
+# name: <cell-element>
+# type: scalar
+14.54772360390463
+
+
+# name: <cell-element>
+# type: scalar
+5.010141081922387
+
+
+# name: <cell-element>
+# type: scalar
+10.55089568172024
+
+
+# name: <cell-element>
+# type: scalar
+10.83725120990748
+
+
+# name: <cell-element>
+# type: scalar
+15.06969732200987
+
+
+# name: <cell-element>
+# type: scalar
+12.03399551724903
+
+
+# name: <cell-element>
+# type: scalar
+5.2753169721766
+
+
+# name: <cell-element>
+# type: scalar
+16.55946470293602
+
+
+# name: <cell-element>
+# type: scalar
+12.33651272826217
+
+
+# name: <cell-element>
+# type: scalar
+18.59554341680521
+
+
+# name: <cell-element>
+# type: scalar
+6.930336646635789
+
+
+# name: <cell-element>
+# type: scalar
+5.496670726225836
+
+
+# name: <cell-element>
+# type: scalar
+22.00698629628305
+
+
+# name: <cell-element>
+# type: scalar
+3.543762881886946
+
+
+# name: <cell-element>
+# type: scalar
+18.93557723887693
+
+
+# name: <cell-element>
+# type: scalar
+27.3376244064988
+
+
+# name: <cell-element>
+# type: scalar
+29.46118883406906
+
+
+# name: <cell-element>
+# type: scalar
+12.64143479432028
+
+
+# name: <cell-element>
+# type: scalar
+21.76472125427115
+
+
+# name: <cell-element>
+# type: scalar
+15.15266147799774
+
+
+# name: <cell-element>
+# type: scalar
+28.39359854316729
+
+
+# name: <cell-element>
+# type: scalar
+23.26028356471539
+
+
+# name: <cell-element>
+# type: scalar
+9.538640503568461
+
+
+# name: <cell-element>
+# type: scalar
+8.25591818190305
+
+
+# name: <cell-element>
+# type: scalar
+19.14946165939596
+
+
+# name: <cell-element>
+# type: scalar
+0.6223496728266367
+
+
+# name: <cell-element>
+# type: scalar
+4.808040337742098
+
+
+# name: <cell-element>
+# type: scalar
+14.14372667246621
+
+
+# name: <cell-element>
+# type: scalar
+15.71261585313632
+
+
+# name: <cell-element>
+# type: scalar
+8.922506327332945
+
+
+# name: <cell-element>
+# type: scalar
+25.34085713909571
+
+
+# name: <cell-element>
+# type: scalar
+24.62442225409298
+
+
+# name: <cell-element>
+# type: scalar
+5.775760667280806
+
+
+# name: <cell-element>
+# type: scalar
+8.383561246340427
+
+
+# name: <cell-element>
+# type: scalar
+2.286375416122645
+
+
+# name: <cell-element>
+# type: scalar
+27.43259360239228
+
+
+# name: <cell-element>
+# type: scalar
+23.57930725591584
+
+
+# name: <cell-element>
+# type: scalar
+10.63153474099858
+
+
+# name: <cell-element>
+# type: scalar
+17.70114329582507
+
+
+# name: <cell-element>
+# type: scalar
+16.52198287653189
+
+
+# name: <cell-element>
+# type: scalar
+5.03953553459089
+
+
+# name: <cell-element>
+# type: scalar
+0.7062597647090965
+
+
+# name: <cell-element>
+# type: scalar
+13.70762084220466
+
+
+# name: <cell-element>
+# type: scalar
+28.72132461658111
+
+
+# name: <cell-element>
+# type: scalar
+11.9534949651058
+
+
+# name: <cell-element>
+# type: scalar
+7.440332842240791
+
+
+# name: <cell-element>
+# type: scalar
+5.008388959211602
+
+
+# name: <cell-element>
+# type: scalar
+10.66139980228116
+
+
+# name: <cell-element>
+# type: scalar
+26.14978616391036
+
+
+# name: <cell-element>
+# type: scalar
+13.99026709538593
+
+
+# name: <cell-element>
+# type: scalar
+17.57533471752192
+
+
+# name: <cell-element>
+# type: scalar
+10.04915976591537
+
+
+# name: <cell-element>
+# type: scalar
+13.77702659224851
+
+
+
+
+
+# name: S
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+# name: <cell-element>
+# type: scalar
+0
+
+
+
+
+
+# name: p
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+# name: <cell-element>
+# type: scalar
+1013.25
+
+
+
+
+
+# name: A
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar
+0.003441824568273107
+
+
+# name: <cell-element>
+# type: scalar
+0.003548737264999504
+
+
+# name: <cell-element>
+# type: scalar
+0.005167275163715489
+
+
+# name: <cell-element>
+# type: scalar
+0.009623798015206724
+
+
+# name: <cell-element>
+# type: scalar
+0.004705476365378584
+
+
+# name: <cell-element>
+# type: scalar
+0.0002520646997204422
+
+
+# name: <cell-element>
+# type: scalar
+0.007095357206676611
+
+
+# name: <cell-element>
+# type: scalar
+0.005589109775670446
+
+
+# name: <cell-element>
+# type: scalar
+0.003334090130275522
+
+
+# name: <cell-element>
+# type: scalar
+0.001198604242886729
+
+
+# name: <cell-element>
+# type: scalar
+0.004788282012418257
+
+
+# name: <cell-element>
+# type: scalar
+0.002614095434728975
+
+
+# name: <cell-element>
+# type: scalar
+0.0007026406540185015
+
+
+# name: <cell-element>
+# type: scalar
+0.000388331338067713
+
+
+# name: <cell-element>
+# type: scalar
+0.0002162417112142641
+
+
+# name: <cell-element>
+# type: scalar
+0.009658236325590654
+
+
+# name: <cell-element>
+# type: scalar
+0.004780970852407233
+
+
+# name: <cell-element>
+# type: scalar
+0.007120618360193958
+
+
+# name: <cell-element>
+# type: scalar
+0.008567010365965619
+
+
+# name: <cell-element>
+# type: scalar
+0.004135300777920316
+
+
+# name: <cell-element>
+# type: scalar
+0.004484037729465916
+
+
+# name: <cell-element>
+# type: scalar
+0.005522159665979766
+
+
+# name: <cell-element>
+# type: scalar
+0.006570713334794561
+
+
+# name: <cell-element>
+# type: scalar
+0.007147840922274939
+
+
+# name: <cell-element>
+# type: scalar
+0.006156236576471605
+
+
+# name: <cell-element>
+# type: scalar
+0.0005357951501970884
+
+
+# name: <cell-element>
+# type: scalar
+0.001111050395484593
+
+
+# name: <cell-element>
+# type: scalar
+0.002888859951826521
+
+
+# name: <cell-element>
+# type: scalar
+0.004586056000710464
+
+
+# name: <cell-element>
+# type: scalar
+0.004716744191771673
+
+
+# name: <cell-element>
+# type: scalar
+0.006370088323061738
+
+
+# name: <cell-element>
+# type: scalar
+0.008039613331507996
+
+
+# name: <cell-element>
+# type: scalar
+0.002588303613407498
+
+
+# name: <cell-element>
+# type: scalar
+0.006126084314230311
+
+
+# name: <cell-element>
+# type: scalar
+0.0001885159402003037
+
+
+# name: <cell-element>
+# type: scalar
+0.003291698103795201
+
+
+# name: <cell-element>
+# type: scalar
+0.004343368395456799
+
+
+# name: <cell-element>
+# type: scalar
+0.0008390266922443956
+
+
+# name: <cell-element>
+# type: scalar
+0.004674018698324101
+
+
+# name: <cell-element>
+# type: scalar
+0.007284620438835835
+
+
+# name: <cell-element>
+# type: scalar
+0.001595310954406671
+
+
+# name: <cell-element>
+# type: scalar
+0.008339434631983085
+
+
+# name: <cell-element>
+# type: scalar
+0.001648230822905218
+
+
+# name: <cell-element>
+# type: scalar
+0.009353092801093026
+
+
+# name: <cell-element>
+# type: scalar
+0.009705927325193865
+
+
+# name: <cell-element>
+# type: scalar
+0.004301515148193509
+
+
+# name: <cell-element>
+# type: scalar
+0.003985426807724206
+
+
+# name: <cell-element>
+# type: scalar
+0.006741539685175164
+
+
+# name: <cell-element>
+# type: scalar
+0.006619263155096115
+
+
+# name: <cell-element>
+# type: scalar
+0.001804937151921961
+
+
+# name: <cell-element>
+# type: scalar
+0.002803712727130924
+
+
+# name: <cell-element>
+# type: scalar
+0.009369481346828631
+
+
+# name: <cell-element>
+# type: scalar
+0.002507093891651761
+
+
+# name: <cell-element>
+# type: scalar
+0.0007321945890956837
+
+
+# name: <cell-element>
+# type: scalar
+0.003750552470247932
+
+
+# name: <cell-element>
+# type: scalar
+0.004635533025183785
+
+
+# name: <cell-element>
+# type: scalar
+0.001660964316645336
+
+
+# name: <cell-element>
+# type: scalar
+0.005506403346367823
+
+
+# name: <cell-element>
+# type: scalar
+0.001429008596523719
+
+
+# name: <cell-element>
+# type: scalar
+0.006504255737321498
+
+
+# name: <cell-element>
+# type: scalar
+0.004638683532973227
+
+
+# name: <cell-element>
+# type: scalar
+0.002484884453530992
+
+
+# name: <cell-element>
+# type: scalar
+0.00053794717945594
+
+
+# name: <cell-element>
+# type: scalar
+0.008922169920121141
+
+
+# name: <cell-element>
+# type: scalar
+0.0009664769982923227
+
+
+# name: <cell-element>
+# type: scalar
+0.0008464503610543049
+
+
+# name: <cell-element>
+# type: scalar
+0.003271395594160027
+
+
+# name: <cell-element>
+# type: scalar
+0.008512526515199556
+
+
+# name: <cell-element>
+# type: scalar
+0.006484450078215456
+
+
+# name: <cell-element>
+# type: scalar
+0.0002637737815661732
+
+
+# name: <cell-element>
+# type: scalar
+0.001558080469357558
+
+
+# name: <cell-element>
+# type: scalar
+0.008980986029289501
+
+
+# name: <cell-element>
+# type: scalar
+0.005832377101744939
+
+
+# name: <cell-element>
+# type: scalar
+0.009298040817106936
+
+
+# name: <cell-element>
+# type: scalar
+0.008955529898917161
+
+
+# name: <cell-element>
+# type: scalar
+0.003731114518830038
+
+
+# name: <cell-element>
+# type: scalar
+0.005209275126948555
+
+
+# name: <cell-element>
+# type: scalar
+0.009927102469817687
+
+
+# name: <cell-element>
+# type: scalar
+0.003111663272319373
+
+
+# name: <cell-element>
+# type: scalar
+0.004035059406774795
+
+
+# name: <cell-element>
+# type: scalar
+0.009146479972799668
+
+
+# name: <cell-element>
+# type: scalar
+0.005436964719126428
+
+
+# name: <cell-element>
+# type: scalar
+0.002897414367327148
+
+
+# name: <cell-element>
+# type: scalar
+0.007901939401130471
+
+
+# name: <cell-element>
+# type: scalar
+0.002605939871475083
+
+
+# name: <cell-element>
+# type: scalar
+0.002171470616988866
+
+
+# name: <cell-element>
+# type: scalar
+0.0002859898304969049
+
+
+# name: <cell-element>
+# type: scalar
+0.005676032307658531
+
+
+# name: <cell-element>
+# type: scalar
+0.007267496722975432
+
+
+# name: <cell-element>
+# type: scalar
+0.004328705174597184
+
+
+# name: <cell-element>
+# type: scalar
+0.0074834921719662
+
+
+# name: <cell-element>
+# type: scalar
+0.003022188888526698
+
+
+# name: <cell-element>
+# type: scalar
+0.0075997695055939
+
+
+# name: <cell-element>
+# type: scalar
+0.002592385002517963
+
+
+# name: <cell-element>
+# type: scalar
+0.004022735056552643
+
+
+# name: <cell-element>
+# type: scalar
+0.009599959528492484
+
+
+# name: <cell-element>
+# type: scalar
+0.002773177734164441
+
+
+# name: <cell-element>
+# type: scalar
+0.007309386637558562
+
+
+# name: <cell-element>
+# type: scalar
+0.006874837565036956
+
+
+# name: <cell-element>
+# type: scalar
+0.009495039442791108
+
+
+
+
+
+# name: F
+# type: cell
+# rows: 100
+# columns: 1
+# name: <cell-element>
+# type: scalar
+0.5479917253111521
+
+
+# name: <cell-element>
+# type: scalar
+0.9413905559066514
+
+
+# name: <cell-element>
+# type: scalar
+0.5927463054242192
+
+
+# name: <cell-element>
+# type: scalar
+0.7829713440704363
+
+
+# name: <cell-element>
+# type: scalar
+0.3138923661039115
+
+
+# name: <cell-element>
+# type: scalar
+0.4401832499072121
+
+
+# name: <cell-element>
+# type: scalar
+0.2718966317526669
+
+
+# name: <cell-element>
+# type: scalar
+0.2599436205605354
+
+
+# name: <cell-element>
+# type: scalar
+0.311993295207554
+
+
+# name: <cell-element>
+# type: scalar
+0.7507764524019865
+
+
+# name: <cell-element>
+# type: scalar
+0.1352588480207493
+
+
+# name: <cell-element>
+# type: scalar
+0.4284974260479247
+
+
+# name: <cell-element>
+# type: scalar
+0.8364025642317522
+
+
+# name: <cell-element>
+# type: scalar
+0.3747131760814777
+
+
+# name: <cell-element>
+# type: scalar
+0.08894561904127135
+
+
+# name: <cell-element>
+# type: scalar
+0.7455622121377478
+
+
+# name: <cell-element>
+# type: scalar
+0.1299993067480324
+
+
+# name: <cell-element>
+# type: scalar
+0.9523760560919677
+
+
+# name: <cell-element>
+# type: scalar
+0.0719647021915637
+
+
+# name: <cell-element>
+# type: scalar
+0.7232401872767161
+
+
+# name: <cell-element>
+# type: scalar
+0.6686605761636605
+
+
+# name: <cell-element>
+# type: scalar
+0.3588998013473755
+
+
+# name: <cell-element>
+# type: scalar
+0.5348817461504001
+
+
+# name: <cell-element>
+# type: scalar
+0.4814259411202658
+
+
+# name: <cell-element>
+# type: scalar
+0.5521068843980319
+
+
+# name: <cell-element>
+# type: scalar
+0.2944093737739982
+
+
+# name: <cell-element>
+# type: scalar
+0.764489044586363
+
+
+# name: <cell-element>
+# type: scalar
+0.9446382004401116
+
+
+# name: <cell-element>
+# type: scalar
+0.932452544752184
+
+
+# name: <cell-element>
+# type: scalar
+0.1775865364289942
+
+
+# name: <cell-element>
+# type: scalar
+0.1071000024235116
+
+
+# name: <cell-element>
+# type: scalar
+0.9203589511466334
+
+
+# name: <cell-element>
+# type: scalar
+0.06623315942894863
+
+
+# name: <cell-element>
+# type: scalar
+0.8928568955748332
+
+
+# name: <cell-element>
+# type: scalar
+0.9748172799792016
+
+
+# name: <cell-element>
+# type: scalar
+0.6198312416765031
+
+
+# name: <cell-element>
+# type: scalar
+0.2770252791374224
+
+
+# name: <cell-element>
+# type: scalar
+0.0644742041352367
+
+
+# name: <cell-element>
+# type: scalar
+0.8968011512305449
+
+
+# name: <cell-element>
+# type: scalar
+0.5348396922639833
+
+
+# name: <cell-element>
+# type: scalar
+0.1174588279266451
+
+
+# name: <cell-element>
+# type: scalar
+0.09116310442238475
+
+
+# name: <cell-element>
+# type: scalar
+0.6451766351817414
+
+
+# name: <cell-element>
+# type: scalar
+0.2443388796908069
+
+
+# name: <cell-element>
+# type: scalar
+0.7780319852093142
+
+
+# name: <cell-element>
+# type: scalar
+0.4380509133432517
+
+
+# name: <cell-element>
+# type: scalar
+0.5257243757218695
+
+
+# name: <cell-element>
+# type: scalar
+0.6113566791306834
+
+
+# name: <cell-element>
+# type: scalar
+0.5272172962710716
+
+
+# name: <cell-element>
+# type: scalar
+0.7697605118242998
+
+
+# name: <cell-element>
+# type: scalar
+0.5771887833620919
+
+
+# name: <cell-element>
+# type: scalar
+0.2001011613360359
+
+
+# name: <cell-element>
+# type: scalar
+0.1599068818437691
+
+
+# name: <cell-element>
+# type: scalar
+0.6341704856872689
+
+
+# name: <cell-element>
+# type: scalar
+0.664685528050868
+
+
+# name: <cell-element>
+# type: scalar
+0.293679693341776
+
+
+# name: <cell-element>
+# type: scalar
+0.7400910559712162
+
+
+# name: <cell-element>
+# type: scalar
+0.1489638642767212
+
+
+# name: <cell-element>
+# type: scalar
+0.9247453611992713
+
+
+# name: <cell-element>
+# type: scalar
+0.1264510611091208
+
+
+# name: <cell-element>
+# type: scalar
+0.09955072120473929
+
+
+# name: <cell-element>
+# type: scalar
+0.464449302705597
+
+
+# name: <cell-element>
+# type: scalar
+0.4375974448480319
+
+
+# name: <cell-element>
+# type: scalar
+0.01965487578358535
+
+
+# name: <cell-element>
+# type: scalar
+0.7606550072801124
+
+
+# name: <cell-element>
+# type: scalar
+0.463403885138398
+
+
+# name: <cell-element>
+# type: scalar
+0.4842966717794528
+
+
+# name: <cell-element>
+# type: scalar
+0.1654013016701887
+
+
+# name: <cell-element>
+# type: scalar
+0.6040805611458032
+
+
+# name: <cell-element>
+# type: scalar
+0.3506788896172509
+
+
+# name: <cell-element>
+# type: scalar
+0.1343910038673157
+
+
+# name: <cell-element>
+# type: scalar
+0.3851139024375412
+
+
+# name: <cell-element>
+# type: scalar
+0.2278787618801536
+
+
+# name: <cell-element>
+# type: scalar
+0.8388096464345351
+
+
+# name: <cell-element>
+# type: scalar
+0.9077688943183269
+
+
+# name: <cell-element>
+# type: scalar
+0.9022380432024831
+
+
+# name: <cell-element>
+# type: scalar
+0.2037388108615727
+
+
+# name: <cell-element>
+# type: scalar
+0.4507483817324452
+
+
+# name: <cell-element>
+# type: scalar
+0.4815240561973131
+
+
+# name: <cell-element>
+# type: scalar
+0.2368874570942462
+
+
+# name: <cell-element>
+# type: scalar
+0.3993530527287275
+
+
+# name: <cell-element>
+# type: scalar
+0.9161340343748758
+
+
+# name: <cell-element>
+# type: scalar
+0.7387916283326427
+
+
+# name: <cell-element>
+# type: scalar
+0.3165414951558551
+
+
+# name: <cell-element>
+# type: scalar
+0.1333196923870149
+
+
+# name: <cell-element>
+# type: scalar
+0.2595659704715986
+
+
+# name: <cell-element>
+# type: scalar
+0.7609505335147463
+
+
+# name: <cell-element>
+# type: scalar
+0.8227162241450271
+
+
+# name: <cell-element>
+# type: scalar
+0.333329530812799
+
+
+# name: <cell-element>
+# type: scalar
+0.9376202430715067
+
+
+# name: <cell-element>
+# type: scalar
+0.9236396627165391
+
+
+# name: <cell-element>
+# type: scalar
+0.3568212665885545
+
+
+# name: <cell-element>
+# type: scalar
+0.4729885373748833
+
+
+# name: <cell-element>
+# type: scalar
+0.7720146681851419
+
+
+# name: <cell-element>
+# type: scalar
+0.9937432381871338
+
+
+# name: <cell-element>
+# type: scalar
+0.6154530288901398
+
+
+# name: <cell-element>
+# type: scalar
+0.2537715567089585
+
+
+# name: <cell-element>
+# type: scalar
+0.7881979072082494
+
+
+# name: <cell-element>
+# type: scalar
+0.9628437897699647
+
+
+# name: <cell-element>
+# type: scalar
+0.03391765601360049
+
+
+
+
+
+
+
+# name: mdl
+# type: sq_string
+# elements: 1
+# length: 8
+ASW_EApr
+
+
+# name: val
+# type: matrix
+# rows: 100
+# columns: 3
+ 11.67757256290221 0.002632002805345674 0.3732741082046714
+ 3.549230042779202 0.003550173080166318 0.9695835361901212
+ 13.70850223870769 0.00559813063897201 0.6775142967149931
+ 4.458061893866645 0.009000208137788495 0.7330169540761133
+ 13.57189385057296 0.004523485591211447 0.2830831519341844
+ 22.19382592932126 0.0003964690655785137 0.3518763629850044
+ 24.21259954948541 0.007079859969254709 0.2635392742374356
+ 8.802181379286314 0.005884683297930686 0.2933594694413725
+ 4.348735923289392 0.003599677696811112 0.3812078004818847
+ 2.610751343733946 0.0018359272357907 0.8168566698665294
+ 7.417926298949435 0.004975329538019862 0.1929400348906471
+ 20.43813520596242 0.002888965394096829 0.5094878630177562
+ 2.754335540573753 0.0004448927923786118 0.4169427251905608
+ 0.1278059239828832 0.001203993044212253 0.9797432433513986
+ 3.18152395485518 0.0004359858971904548 0.5031001322013878
+ 7.993846976497565 0.00892341350637944 0.7147256978101778
+ 23.01310656669617 0.004736692814686055 0.1377639757474877
+ 3.857969007913403 0.00685806516292358 0.9559323415448022
+ 25.6143829675711 0.008626147790385279 0.06866719276641026
+ 23.8557280222048 0.004247991329557894 0.7359835678890114
+ 24.81866107385688 0.004629022054286493 0.6575321144528345
+ 8.466284025365123 0.005861589055608946 0.4050652029998386
+ 16.60883017286089 0.007356773687951289 0.6072037720826208
+ 17.89366360087596 0.008512167724476096 0.6081705915253499
+ 23.63112328953995 0.006915154669825625 0.6556818640993824
+ 12.25199429561076 0.0006997098340164956 0.1626757273763922
+ 2.269007815934963 0.0005646777378200683 0.2574145993007343
+ 2.561075248159902 0.004205541695462773 1.378742695870564
+ 10.26619898951685 0.004532806255849504 0.8815270848789778
+ 27.08661471348105 0.005211346048096521 0.2223705690048245
+ 27.13233578478719 0.006566617314444611 0.147145960043097
+ 13.57059909897995 0.008354304091136949 0.9576561432031119
+ 8.560158281308638 0.002919564286651067 0.1307256373878676
+ 24.49890640314708 0.006972183777761741 1.016482523201353
+ 17.6990766342068 0.3807150975401063 15.41196244813902
+ 26.93168224689063 0.004613494250388337 0.8761976854978896
+ 4.539320199129071 0.003738705799531998 0.1520975580597028
+ 11.96342974502897 0.0007268672887320618 4.964832288075984e-05
+ 18.98891339554133 0.003916257994555919 0.8144916091091625
+ 9.284294501655687 0.00768334246812991 0.578124115732739
+ 8.775279588322142 0.001543068900400468 0.08556658665257705
+ 12.24600075445405 0.008038130617621488 0.08202917752159639
+ 11.48912247807365 0.001348468633865017 0.5417060818939423
+ 2.585380945796169 0.009684124588576747 0.2623039056510469
+ 27.00982119837386 0.01059534532607155 0.8249825482574953
+ 0.6411509138624567 0.004615833318775757 0.4446831249014905
+ 3.539459236618777 0.003321294737740569 0.4666155846348263
+ 14.78580699575071 0.007310889893266823 0.693767169178074
+ 4.956282011094641 0.006577648751249228 0.4936956867286835
+ 10.55465267491393 0.001411650701525412 0.4312151808723765
+ 11.03492088333739 0.002912530729322293 0.6125062645714177
+ 15.01113189848001 0.009254163340607606 0.1963399124823009
+ 11.77390567367705 0.002518924542351151 0.1574324274169423
+ 5.286712459618652 0.0004496068301051869 0.9121458339683988
+ 16.51241908330494 0.003501900319547542 0.5911656299287826
+ 11.99286327296255 0.00433086171916101 0.2304813500204017
+ 18.60997364539418 0.0020638263295773 0.9722083886767985
+ 6.394711987023838 0.005405567073918201 0.1740754859581737
+ 5.578751983787463 0.001429223815954141 1.101958532190131
+ 22.07488723108668 0.006762303336473137 0.1578652441050101
+ 3.226429859710955 0.003895019154427352 -1.292475352712761e-05
+ 19.52891556783604 0.002535870484400883 0.4095178732490017
+ 27.47438533164222 0.0004551273061644122 0.2914417140351188
+ 29.30725624803788 0.008843273062091137 -0.0002230723994905747
+ 12.7205626561975 0.000707270213531967 0.3365413328224002
+ 21.47655503388205 0.0008347566463108321 0.2487651126500418
+ 14.7396624214764 0.002477850572954441 0.3479382329468141
+ 28.25199908313568 0.008333427940225843 0.1703194530395875
+ 23.32037833654763 0.006415685045187141 0.597317001167733
+ 9.568974036431594 0.001129592160177023 4.315013140207679
+ 8.293375372790052 0.001826099127151988 0.2477579567580873
+ 19.71704287057884 0.009470406416444052 0.403232610947884
+ 0.3964382205162013 0.005479113811049442 0.1830340710636466
+ 4.80420079066247 0.009419649411121061 0.903084578949842
+ 14.22498934559071 0.009974493929364446 0.9958739056253509
+ 15.79729022081612 0.00337439814781093 0.8585236461837331
+ 8.614165550150837 0.004833140010440184 0.1338252423613078
+ 24.96278156727605 0.009711982373328387 0.4258469340390348
+ 25.0607052084771 0.002931814798704382 0.3789309121694868
+ 6.174366125228965 0.004505187517981183 0.3010094421806599
+ 8.485325515648544 0.009104893102585433 0.3883945182462334
+ 1.725031954450861 0.00384101290202564 0.7896090155313018
+ 27.42316020127686 0.0029661379011967 0.7366632650426326
+ 23.83117300722397 0.007801604931601081 0.3027418490360308
+ 10.73034970920537 0.00306101460614371 0.2151362511404711
+ 17.75500610880414 0.002482186285745294 0.334330778379276
+ 16.13736546665735 6.739582031652932e+17 141.0259783780307
+ 5.429560509254778 0.006902008000232869 0.9675993525309178
+ 1.033112599320725 0.007700373695915804 0.3580424461711301
+ 14.09067991300151 0.006626759695754259 1.268259904757421
+ 28.50706924432791 0.009244948657515671 1.157385594617292
+ 11.97008209338095 0.003095895917449543 0.3514224520540919
+ 7.22884296290415 0.007349694223059014 0.4454808318373981
+ 4.702566743657812 0.003586845185114254 1.100908733345752
+ 10.35667362547416 0.003300346219875867 0.8281843578753649
+ 25.54748748703255 0.008851719499754083 0.5639981210659608
+ 13.95889368913478 0.003262835779155966 0.3212394937562342
+ 17.83736446186228 0.00829888321608048 0.868212675294556
+ 10.13588473430021 0.006930875763502864 0.9551293391930304
+ 13.49564624059566 0.00956051456587553 0.05605944428848936
+
+
+# name: err
+# type: matrix
+# rows: 100
+# columns: 3
+ 0.2533791643363049 0.0004585099399684916 0.1143669786364882
+ 0.2367596967850819 0.0009697851379203568 0.2066245607387713
+ 0.2903476246169136 0.0007069099761403774 0.0902280074432341
+ 0.246359450823414 0.0008341723620657245 0.06448749990870301
+ 0.2699113338377701 0.0004562746965294812 0.06588737968379101
+ 0.2993961278572716 0.0003861662213710115 0.6667300058710967
+ 0.358189240597617 0.0005064792160831675 0.0488710310882217
+ 0.2483850849884509 0.0004913308137619104 0.0537975299483426
+ 0.2207640524721918 0.000490655391391664 0.08764096952063806
+ 0.2190388532563371 0.0007546411560572197 0.2989150663908688
+ 0.2344249238932228 0.0004354753530625385 0.05507314271961254
+ 0.3124503932588003 0.0005296270699971434 0.1291821741859422
+ 0.203089136469514 0.0004407955745240407 0.636158274686109
+ 0.2130449066853025 0.0009463900538751825 0.6011160462352215
+ 0.2093400193233616 0.0004894352120136451 0.7440877778778332
+ 0.2665405595098427 0.0008162135154302539 0.06411579270525326
+ 0.3268398362707755 0.0004071243245494797 0.05729289637231953
+ 0.2478225539757091 0.001024651394434825 0.1113484836763642
+ 0.3797816166516414 0.0004701416267491808 0.03669353913508443
+ 0.3619741307990765 0.0007155747407753161 0.1250465414134252
+ 0.3658656890265848 0.0006626329253012497 0.1047313263278273
+ 0.2505968095897945 0.0005457532501060156 0.06127787185597549
+ 0.3155817622004784 0.0006901474728987346 0.06645934534817684
+ 0.3324326158039885 0.0007189760293165841 0.06025077200200448
+ 0.3718481801706147 0.0007212869974672889 0.07625333202841479
+ 0.2393593219609105 0.0003186488120713443 0.2864581627412994
+ 0.2006260674302066 0.000372253915245419 0.4021033114412735
+ 0.2639232131811397 0.00175215886393764 0.3501373219724963
+ 0.2753335708511419 0.0008614903281361737 0.1413628625847074
+ 0.3656813080074288 0.0004463422000405424 0.05877505234010005
+ 0.3765354439878508 0.0004565557712591562 0.04745740452375035
+ 0.3143600939721184 0.001024147761817516 0.09297984519261956
+ 0.2333535830019057 0.0003634188244813852 0.07723931624047495
+ 0.4151400815240275 0.001067830900575029 0.1199784308765851
+ 0.5437299304372266 2.480887726825447 20.1934265416121
+ 0.4026723535499157 0.000850653679624455 0.1423452064718764
+ 0.2180882861706822 0.0003949635206881778 0.06397399364371822
+ 0.2343571673123636 0.0002732054623420872 0.2287460909853134
+ 0.3284672505991845 0.0007802777785828569 0.148489108544471
+ 0.266148031334317 0.0006840479445224386 0.06104778873229391
+ 0.2269055405610481 0.0003195040175894174 0.126433426990575
+ 0.2747567442864483 0.0004607773148080122 0.03640241786739695
+ 0.2533264679806375 0.0005209168425046667 0.2655479929537893
+ 0.2271307208934852 0.0005621980503347811 0.03624780216733429
+ 0.4457345804828418 0.0009472936947270969 0.06740989090579383
+ 0.2057545721924729 0.0005450326658061754 0.07570481166773092
+ 0.2168408704413834 0.0005365684914384717 0.1052527653765985
+ 0.3082658631671947 0.0007589553818127721 0.07448588471230026
+ 0.2341776152769571 0.0006079785995792691 0.06087353870731582
+ 0.2438185938189102 0.0004540345327800825 0.2134382172572173
+ 0.2608076478098023 0.0006015313623648021 0.1443004575982924
+ 0.3018385505595743 0.0005256229343206113 0.03715506517166795
+ 0.2454057449195722 0.0003623303173365002 0.09085413800290928
+ 0.2356797167440288 0.0008381609477493693 1.405822245660485
+ 0.2945830687183913 0.0005929315181487141 0.1192939029411497
+ 0.2567018329055301 0.000429141893040349 0.06353643562512899
+ 0.3294646207227803 0.0008989969402512005 0.3395560726271649
+ 0.2292908236522076 0.0004396190082767854 0.0507126761516021
+ 0.2518925325200689 0.001105918593761304 0.6127715079739978
+ 0.3373703460650375 0.0004584801999204434 0.04540010257444258
+ 0.2086624338783011 0.0003526920712425089 0.05316721795724993
+ 0.3030040418018564 0.0004654240730636381 0.1256432335516146
+ 0.3294490591845116 0.0003646011149520466 0.5517782328028206
+ 0.4113035657062089 0.000454628597315357 0.0348648215406419
+ 0.2489914401411297 0.0003919391252367186 0.3629390318949293
+ 0.2903251514131822 0.0003509971577312497 0.2806638511754831
+ 0.2679654651351247 0.0004436467302732448 0.1185893226462288
+ 0.4035860340551972 0.0005085486429001033 0.04198803915387979
+ 0.3637900185247203 0.0006682819195187525 0.07485777222328671
+ 1.006613260733845 0.02337658122186099 17.15878968312784
+ 0.2292140834094865 0.0003848058641247286 0.1335534698750187
+ 0.3465523410326658 0.0006195851030884481 0.04496765003164239
+ 0.2029269922466967 0.000448201740221598 0.04918281915067918
+ 0.2571194518815705 0.001019181229460416 0.07932790066341117
+ 0.3322365176596172 0.001109060123353437 0.08500568859465536
+ 0.3071438700404251 0.0008108784802946659 0.1801660162803669
+ 0.2388678051855516 0.0004058368533994924 0.05207624324248594
+ 0.390406535374456 0.0006428265475307598 0.04642890689816705
+ 0.3407146098157126 0.00046048561639202 0.1088327743644553
+ 0.2319713578726259 0.0004675131721858488 0.06608733808563262
+ 0.262058643270222 0.0006051438378999132 0.04347086128524563
+ 0.2183414241652187 0.0007947277080761655 0.1467391947451448
+ 0.3811145414629378 0.0006851697925482687 0.1732323563431636
+ 0.3656558150774177 0.0005417803002009709 0.04760955631386765
+ 0.2451890314792153 0.0003940340641627248 0.08215834141461305
+ 0.2849383670665974 0.0004291830677368657 0.1163499805044564
+ 0.4381980622322805 6.220897863070368e+23 2750039.959215216
+ 0.2577748060987237 0.001029491120859548 0.1124748410654103
+ 0.2167606317302809 0.0005673872053343202 0.04639154149873281
+ 0.3458774377933067 0.001457122124735786 0.1803663709742541
+ 0.4873788504562696 0.001325312022880707 0.115704767370724
+ 0.2558940376011524 0.0004536474244965601 0.09640629438414965
+ 0.2478208708290048 0.0005983880071120711 0.05353594265976896
+ 0.2489978829626276 0.001150944531676516 0.2534713820994999
+ 0.2661470866479728 0.0007816302154080078 0.1740372916597347
+ 0.3965549936438089 0.0007073150690175169 0.05727932765363231
+ 0.2653324220205373 0.0004387949122760065 0.08894337199641092
+ 0.3458227019341716 0.0009251959739050991 0.08361762610321496
+ 0.2870172364144066 0.0009965455450553272 0.1083896683032933
+ 0.2890731121034294 0.0004832472814706621 0.03244453371060947
+
+
+# name: chi2
+# type: matrix
+# rows: 100
+# columns: 1
+ 0.663112144806381
+ 1.077201454452956
+ 0.6762689772355386
+ 0.3808629056360401
+ 3.670866393891879
+ 5.339776035456359
+ 9.221508131019586
+ 0.2610391010797695
+ 5.433872180803828
+ 0.4732795324917169
+ 0.2265961061580498
+ 0.5276844938723586
+ 0.005968312823746928
+ 1.49832621661594
+ 1.101555725392845
+ 1.177823130730063
+ 3.381948815650843
+ 0.8155874362642557
+ 0.3564429101586259
+ 0.5437961644930946
+ 2.612121110280723
+ 0.7603417858615018
+ 2.084854158216992
+ 0.7027405469994966
+ 1.091574756521108
+ 1.430547170723369
+ 0.2551562214479266
+ 1.863978165453394
+ 2.121306020471756
+ 0.1389809664464074
+ 2.086538041783835
+ 2.686533315612527
+ 1.476510122030419
+ 0.7816012581580588
+ 3.168765858217002
+ 8.262806387057715
+ 0.1800009566117244
+ 2.98221167645465
+ 2.000190825283612
+ 1.360890757271074
+ 1.318856279718113
+ 1.453608574024646
+ 0.6854693572292587
+ 1.013198453940366
+ 2.480346256202444
+ 0.9219723842621735
+ 0.2758543683332828
+ 0.6825296743243966
+ 0.9719419028276177
+ 2.33457534642748
+ 5.024723112378354
+ 1.191986067753571
+ 0.1442451587539655
+ 0.4514594044632861
+ 0.2872339488204499
+ 0.3449463481746301
+ 1.341173533975219
+ 8.087066179573204
+ 0.03369951958880507
+ 3.768096660962833
+ 2.336723898565938
+ 1.205828915194761
+ 0.2851987942311462
+ 7.939107403744512
+ 3.474613111133287
+ 2.016146420172207
+ 0.2236344093481006
+ 1.737366053025733
+ 1.169885869237998
+ 4.063901630398198
+ 4.929745690531487
+ 1.177802804415919
+ 0.2768874223454784
+ 1.869172595861149
+ 0.7755655849114546
+ 0.8213981129258665
+ 1.372704637971892
+ 0.8301766261369801
+ 0.5227288344705165
+ 1.213531406008217
+ 2.784068234828626
+ 1.037552512861824
+ 1.629770323739125
+ 3.074685947059181
+ 2.242289302853159
+ 0.826402579014675
+ 3.569118124386842
+ 0.1863438730405131
+ 8.781623582173539
+ 0.6628827398980712
+ 1.370525568377849
+ 0.7239338027493136
+ 0.2289918535689955
+ 0.8060215173092211
+ 3.99986330112716
+ 0.9985503584226164
+ 0.04645849722168212
+ 2.438187564750181
+ 1.139883031234443
+ 1.25401063649238
+
+
+# name: DF
+# type: matrix
+# rows: 100
+# columns: 1
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+ 2
+
+
+# name: pVal
+# type: matrix
+# rows: 100
+# columns: 1
+ 0.7178059059861094
+ 0.5835642469036778
+ 0.7130993776993728
+ 0.8266024170534223
+ 0.1595443726609614
+ 0.06925998076509343
+ 0.009944316813567222
+ 0.8776393344581975
+ 0.06607689823580443
+ 0.7892755605104768
+ 0.892884493479598
+ 0.7680946993919286
+ 0.9970202917570944
+ 0.4727620378506153
+ 0.5765011971476532
+ 0.5549309622224657
+ 0.1843398142943549
+ 0.6651160660567539
+ 0.8367570988592916
+ 0.7619319115214978
+ 0.2708850940700767
+ 0.6837445521172182
+ 0.3525978596927164
+ 0.703723135580313
+ 0.5793854082185864
+ 0.4890582943015811
+ 0.8802246581636008
+ 0.3937696904003325
+ 0.3462296449918096
+ 0.9328690112484719
+ 0.352301117759142
+ 0.2609917039475305
+ 0.4779471769761849
+ 0.6765150200174559
+ 0.2050742994618839
+ 0.01606032725690498
+ 0.9139307481326892
+ 0.2251235675924201
+ 0.3678443424965493
+ 0.506391406220144
+ 0.5171469856962011
+ 0.483451496299528
+ 0.7098265187334671
+ 0.6025412043638022
+ 0.2893341217355306
+ 0.630661385427673
+ 0.8711621238323775
+ 0.7108706183171851
+ 0.6150996748299349
+ 0.3112099005075306
+ 0.08107654616360382
+ 0.5510151174171722
+ 0.9304168389043891
+ 0.7979337522319528
+ 0.8662194687492853
+ 0.841580864683756
+ 0.5114084121580735
+ 0.01753540866851755
+ 0.9832914034405951
+ 0.1519736192930223
+ 0.3108757546734804
+ 0.5472144764093011
+ 0.8671013626343694
+ 0.01888185819292776
+ 0.1759937923038906
+ 0.3649214295472539
+ 0.8942076995495867
+ 0.4195036608087361
+ 0.5571376541775493
+ 0.1310795595657037
+ 0.08501965233571529
+ 0.5549366021016584
+ 0.8707122612618139
+ 0.3927483127165672
+ 0.6785597155477953
+ 0.6631864832583371
+ 0.503408999510734
+ 0.6602819666035328
+ 0.7700002671123912
+ 0.5451110721333859
+ 0.2485691711590132
+ 0.5952485340107316
+ 0.4426901621529936
+ 0.214951475101641
+ 0.325906531659407
+ 0.6615291105564542
+ 0.1678710653826797
+ 0.9110368463240746
+ 0.01239066650395715
+ 0.717888244807275
+ 0.5039577800362864
+ 0.6963054142123968
+ 0.891815570967736
+ 0.6683049092231896
+ 0.1353445336430761
+ 0.6069704451073163
+ 0.9770384733844613
+ 0.2954978309673048
+ 0.5655585140729518
+ 0.5341891345146002
+
+
+# name: iFit
+# type: matrix
+# rows: 1
+# columns: 5
+ 1 0 0 1 1
+
+
+# name: p0
+# type: matrix
+# rows: 1
+# columns: 5
+ 13.45543310381336 0 1013.25 0.004734461676095121 0.5039347857141098
+
+
+# name: pSc
+# type: matrix
+# rows: 1
+# columns: 5
+ 5 5 1000 0.001 0.5
+
+
+# name: pMin
+# type: matrix
+# rows: 1
+# columns: 5
+ 0 0 0 0 0
+
+
+# name: pMax
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+# name: parname
+# type: cell
+# rows: 1
+# columns: 5
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1
+T
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1
+S
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1
+p
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1
+A
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1
+F
+
+
+
+
+
