@@ -353,7 +353,7 @@ for i = 1:Nsmpl % fit each sample
         warnstate_atmtime  = warning ('query','atmos_gas_timerange');                warning ('off','atmos_gas_timerange');
         warnstate_loadfile = warning ('query','load-file-in-path');                  warning ('off','load-file-in-path'); % turn off warnings about loading data from atmospheric transient tracer data
         
-        % do the fitting        
+        % do the fitting
         [par_val(i,:),chi2(i)] = fminsearch(goalfun,repmat(0,size(PF0))); % find best-fit parameter values relative to PF0 (both offeset and normalised!)
         
         % turn warnings back on:
