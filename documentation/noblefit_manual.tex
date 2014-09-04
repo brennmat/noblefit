@@ -63,13 +63,97 @@ There are two ways to get \noblefit:
 Once you have a copy of \noblefit\ downloaded to your computer, you should move the \noblefit\ folder to a convenient location on your computer. I like to keep all your Matlab/\mbox{GNU Octave} code and packages in one directory, which contains several subdirectories for the different packages and projects. This greatly helps Matlab/\mbox{GNU Octave} to find your files. For instance, I keep all my m-files in {\tt \textasciitilde{}/m-files/}, so \noblefit\ goes to {\tt \textasciitilde{}/m-files/noblefit}. Then I tell Matlab/GNU Octave where to look for the \noblefit\ functions by including the command {\tt addpath('\textasciitilde{}/m-files/noblefit')} in the {\tt startup.m} file (Matlab) or the {\tt .octaverc} file (GNU Octave).
 
 \section{Getting started with \noblefit}
-The \noblefit\ tools work the same as any other Matlab/\mbox{GNU Octave} tool. First you need to make sure Matlab or GNU Octave knows where to look for the \noblefit\ files (\secref{install_mpic}). Then you just type the name of the functions to the command shell to execute them.\par
+% The \noblefit\ tools work the same as any other Matlab/\mbox{GNU Octave} tool. First you need to make sure Matlab or GNU Octave knows where to look for the \noblefit\ files (\secref{install_mpic}). Then you just type the name of the functions to the command shell to execute them.\par
 
-The core of \noblefit\ is the {\tt noblefit.m} function, which fits the data to the model using the $\chi^2$ regression method \citep{Press:1986}. It reports the best-fit values of the fitted model parameters, their errors (calculated by propagation of the data errors), and the some statistics about the goodness of the fit ( $\chi^2$, $p$ value, and degrees of freedom of the regression).\par
+The general approach of the \noblefit\ package is to fit a model to a given data set using the $\chi^2$ regression method \citep{Press:1986}. \noblefit\ reports the best-fit values of the fitted model variables, their standard errors (calculated by propagation of the data errors), and the statistics about the goodness of the fit ($\chi^2$, $p$ value, and degrees of freedom of the regression).\par
 
-Before calling the {\tt noblefit.m} function, however, you need to load and format the data, define the model function, and specify the initial and fixed values of the model parameters. The function the {\tt noblefit.m} facilitats loading and formatting the data, and there are a few predefined model functions in the the {\tt modelfunctions/} folder which you can use as examples. 
+Before a model can be fitted to any given data set, the fitting problem must be defined as follows ($n$: number of data values per data set, $m$: number of fitted model variables; $ n > m$):
+\begin{itemize}
+\item The user must provide the measured (or observed) data to \noblefit. Each data set consists of the observed values $\vec{y} = (y_1, \ldots, y_n)$ and the associated standard errors $\vec{e} = (e_1, \ldots, e_n)$ (note that data values without errors are useless). In simple cases, the data can be entered directly on the Matlab/\mbox{GNU Octave} terminal. If the data set is large, or if there are many different data sets (e.g., data from different samples), it may be more convenient and reliable to load the data from a file.
+\item The user must provide the model function $\vec{Y} = F(\vec{X})$ to \noblefit. This is done by writing a Matlab/\mbox{GNU Octave} function that calculates the modelled data values $\vec{Y} = y_1, \ldots, y_n$ as a function of the input variables $\vec{X} = X_1, \ldots, X_m$ of the model.
+\item The user must provide the inital values of the fitted model variable. These initial values will be used as a starting point to find the best-fit values.
+\item If only a subset of the model variables is used in the fit, the user must provide the values of the model parameters that will be used to evaluate the model (i.e., the fixed values of the model variables that are not fitted).
+\end{itemize}
+
+Once the fitting problem is defined, the {\tt noblefit.m} function is called to fit the data to the model using the $\chi^2$ regression method \citep{Press:1986}. In a nutshell, {noblefit.m} determines the best-fit values of the model variables ($\vec{X}$) by minimizing the difference between the measured data ($\vec{y}$) and the data predicted by the model ($\vec{Y}$), whereby the errors of the measured data are taken into account. To this end, the sum of the squares of the error-weighted residuals between the predicted and the measured data ($\chi^2$) is minimized:
+\begin{displaymath}
+\chi^2 = \sum_1^n \left(\frac{Y_i - y_i}{e_i}\right)^2 = \sum_1^n \left(\frac{F_i(\vec{X}) - y_i}{e_i}\right)^2
+\end{displaymath}
+
+Once {\tt noblefit.m} found the $\chi^$ minimum, it reports the best-fit values of the fitted model variables $\vec{X}$, their errors ($\vec{E} = E_1,\ldots,E_m$; calculated by propagation of the data errors), and the some statistics about the goodness of the fit ($\chi^2$, $p$ value, and degrees of freedom of the regression).\par
+
+The call to the {\tt noblefit} function looks like this:\\
+{\tt [X,E,chi2,DF,p] = noblefit (F,x,m,vf,v0,vs,vmin,vmax)}
+\begin{itemize}
+\item Input arguments:
+\begin{itemize}
+	\item {\tt F}: model function
+	\item {\tt x}: measured data
+	\item {\tt m}: measured variables included in the fit
+	\item {\tt vf}: index to the fitted model variables
+	\item {\tt v0}: initial values of fit variables and values of fixed model variables
+	\item {\tt vs}: scaling factors of model variables (optional)
+	\item {\tt vmin}: minimum values of fitted model variables
+	\item {\tt vmax}: maximum values of fitted model variables
+\end{itemize}
+\item Output arguments:
+\begin{itemize}
+	\item {\tt X}: best fit values of fitted model variables
+	\item {\tt E}: standard errors of X
+	\item {\tt chi2}: $\chi^2$ value
+	\item {\tt DF}: degrees of freedom of the fit
+	\item {\tt p}: $p$ value of fit
+\end{itemize}
+\end{itemize}
+\par
+
+The input and output arguments of {\tt noblefit} are explained in detail below.\footnote{This is work in progress}
 
 Finally, there are a few complete examples of how to use \noblefit\ in the the {\tt examples} folder. While I am working to improve and expand this manual, I'd recommend you take a look at those worked examples to get started.
+
+\subsection{Input arguments}
+\subsubsection{Model function}
+work in progress.
+
+\subsubsection{Measured data}
+work in progress.
+
+\subsubsection{Measured variables included in the fit}
+work in progress.
+
+\subsubsection{Index to fitted model variables}
+work in progress.
+
+\subsubsection{Initial values of fit variables and values of fixed model variables}
+work in progress.
+
+\subsubsection{Scaling factors of model variables}
+work in progress.
+
+\subsubsection{Minimum values of fitted model variables}
+work in progress.
+
+\subsubsection{Maximum values of fitted model variables}
+work in progress.
+
+
+\subsection{Output arguments}
+
+\subsubsection{Best fit values of fitted model variables}
+work in progress.
+
+\subsubsection{Standard errors of best fit values}
+work in progress.
+
+\subsubsection{$\chi^2$ value}
+work in progress.
+
+\subsubsection{Degrees of freedom of the fit}
+work in progress.
+
+\subsubsection{$p$ value of the fit}
+work in progress.
+
 
 \section{\noblefit\  tools reference}\label{sec:tools_ref}
 This section lists all \noblefit\ functions and describes their functionality.
