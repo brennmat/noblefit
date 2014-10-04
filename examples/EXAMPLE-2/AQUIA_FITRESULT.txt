@@ -1,3 +1,5 @@
+octave> AQUIA_EXAMPLE
+
 Parsing header (11 columns):
 Column 1:
    title: Sample
@@ -113,3 +115,271 @@ Sample 1 of 10 (MD9.1):
 -----------------------------------
 
 Sample 2 of 10 (MD8.2):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 0.781803
+   - DF		= 1
+   - p-value	= 0.37659
+
+   Fit results:
+   - T		= 12.5238 +/- 0.531762
+   - A		= 0.0330726 +/- 0.0120111
+   - F		= 0.747969 +/- 0.0224496
+
+
+-----------------------------------
+
+Sample 3 of 10 (MD5.2):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 0.107922
+   - DF		= 1
+   - p-value	= 0.742523
+
+   Fit results:
+   - T		= 13.3699 +/- 0.655184
+   - A		= 0.0430257 +/- 0.0170044
+   - F		= 0.757642 +/- 0.0184738
+
+
+-----------------------------------
+
+Sample 4 of 10 (MD6.2):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 0.243811
+   - DF		= 1
+   - p-value	= 0.621467
+
+   Fit results:
+   - T		= 12.2542 +/- 1.14897
+   - A		= 0.0758071 +/- 0.0753451
+   - F		= 0.851575 +/- 0.0140007
+
+
+-----------------------------------
+
+Sample 5 of 10 (MD7.1):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 55.4091
+   - DF		= 1
+   - p-value	= 9.79217e-14
+
+   Fit results:
+   - T		= 4.16311 +/- 0.272609
+   - A		= 0.0037293 +/- 0.00278589
+   - F		= 2.7368e-06 +/- 0.559168
+
+
+-----------------------------------
+
+Sample 6 of 10 (MD7.2):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 41.366
+   - DF		= 1
+   - p-value	= 1.26232e-10
+
+   Fit results:
+   - T		= 3.95265 +/- 0.270502
+   - A		= 0.00371514 +/- 0.00280129
+   - F		= 1.95264e-05 +/- 0.565271
+
+
+-----------------------------------
+
+Sample 7 of 10 (MD20.2):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 2.21724
+   - DF		= 1
+   - p-value	= 0.136477
+
+   Fit results:
+   - T		= 9.31926 +/- 0.468429
+   - A		= 0.0319904 +/- 0.0123051
+   - F		= 0.765472 +/- 0.023375
+
+
+-----------------------------------
+
+Sample 8 of 10 (MD23.1):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 16.3756
+   - DF		= 1
+   - p-value	= 5.19486e-05
+
+   Fit results:
+   - T		= 3.738 +/- 0.264665
+   - A		= 0.00286403 +/- 0.00339578
+   - F		= 1.73983e-07 +/- 0.942882
+
+
+-----------------------------------
+
+Sample 9 of 10 (MD21.1):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 0.811643
+   - DF		= 1
+   - p-value	= 0.367635
+
+   Fit results:
+   - T		= 10.7789 +/- 0.421461
+   - A		= 0.0224669 +/- 0.00846931
+   - F		= 0.735024 +/- 0.0327043
+
+
+-----------------------------------
+
+Sample 10 of 10 (MD21.2):
+   T (fit parameter):
+     - initial value	= 8
+     - allowed range	= 0 to 25
+     - Normalisation factor = 8 (determined from initial value -- consider specifying values explicity!)
+   S = 0 (fixed value)
+   P = 956.508 (fixed value)
+   A (fit parameter):
+     - initial value	= 0.001
+     - allowed range	= 0 to 0.1
+     - Normalisation factor = 0.001 (determined from initial value -- consider specifying values explicity!)
+   F (fit parameter):
+     - initial value	= 0
+     - allowed range	= 0 to 1
+     - Normalisation factor = 1 (determined from initial value -- consider specifying values explicity!)
+   t = 1980 (fixed value)
+
+   Statistics of fit:
+   - chi2	= 1.09812
+   - DF		= 1
+   - p-value	= 0.294679
+
+   Fit results:
+   - T		= 10.7665 +/- 0.408323
+   - A		= 0.0205475 +/- 0.00780854
+   - F		= 0.726226 +/- 0.0360569
+
+
+*** NOBLEFIT: MODEL FITTING COMPLETED.
