@@ -81,7 +81,7 @@ Once the fitting problem is defined, the {\tt noblefit.m} function is called to 
 \chi^2(\vec{X}) = \sum_1^n \left(\frac{Y_i - y_i}{e_i}\right)^2 = \sum_1^n \left(\frac{F_i(\vec{X}) - y_i}{e_i}\right)^2
 \end{displaymath}
 
-Once {\tt noblefit.m} found the $\chi^2$ minimum, it reports the best-fit values of the fitted model variables $\vec{X}$, their errors ($\vec{E} = E_1,\ldots,E_m$; calculated by propagation of the data errors), and the some information about the goodness of the fit ($\chi^2$, $p$ value, and degrees of freedom of the regression).\par
+Once {\tt noblefit.m} found the $\chi^2$ minimum, it reports the best-fit values of the fitted model variables $\vec{X}$, their errors ($\vec{E} = E_1,\ldots,E_m$; calculated by propagation of the data errors), and the some information to assess the goodness of the fit ($\chi^2$ and $p$ values, degrees of freedom of the regression).\par
 
 The call to the {\tt noblefit} function looks like this:\\
 {\tt [X,E,chi2,DF,p] = noblefit (F,x,m,vf,v0,vs,vmin,vmax)}
@@ -94,8 +94,8 @@ The call to the {\tt noblefit} function looks like this:\\
 	\item {\tt vf}: index to the fitted model variables
 	\item {\tt v0}: initial values of fit variables and values of fixed model variables
 	\item {\tt vs}: scaling factors of model variables (optional)
-	\item {\tt vmin}: minimum values of fitted model variables
-	\item {\tt vmax}: maximum values of fitted model variables
+	\item {\tt vmin}: minimum values of fitted model variables (optional)
+	\item {\tt vmax}: maximum values of fitted model variables (optional)
 \end{itemize}
 \item Output arguments (see \secref{outputargs} for details):
 \begin{itemize}
@@ -110,46 +110,46 @@ The call to the {\tt noblefit} function looks like this:\\
 
 \subsection{Input arguments}\label{sec:inputargs}
 \subsubsection{Model function}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Measured data}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Measured variables included in the fit}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Index to fitted model variables}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Initial values of fit variables and values of fixed model variables}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Scaling factors of model variables}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Minimum values of fitted model variables}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Maximum values of fitted model variables}
-work in progress.
+(documentation is work in progress.)
 
 
 \subsection{Output arguments}\label{sec:outputargs}
 
 \subsubsection{Best fit values of fitted model variables}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Standard errors of best fit values}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{$\chi^2$ value}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{Degrees of freedom of the fit}
-work in progress.
+(documentation is work in progress.)
 
 \subsubsection{$p$ value of the fit}
-work in progress.
+(documentation is work in progress.)
 
 \section{Worked examples}
 There are a few complete examples of how to use \noblefit\ in the the {\tt examples} folder. While I am working to improve and expand this manual, I'd recommend you take a look at those worked examples to get started.
