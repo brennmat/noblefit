@@ -15,16 +15,7 @@ function X = nf_modelfun_EAce (varargin)
 % F: fractionation parameter (scalar, dimensionless, ranging for 0 to 1)
 %
 % OUTPUT:
-% X: struct containing the calculated data:
-% - X.He:  He concentration
-% - X.RHe: 3He/4He ratio
-% - X.Ne:  Ne concentration
-% - X.RNe: 20Ne/22Ne isotope ratio (RNe)
-% - X.Ar:  Ar concentration
-% - X.RAr: 36Ar/40Ar isotope ratio (RAr)
-% - X.Kr:  Kr concentration
-% - X.Xe:  Xe concentration
-% - X.N2:  N2 concenatration
+% X: output data (vector of entries as given in 'tracers' at input), see also nf_modelfun_ASW.m
 %
 % *** OPTION-B: function X = nf_modelfun_EAce (info)
 %

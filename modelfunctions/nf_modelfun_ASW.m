@@ -15,7 +15,7 @@ function X = nf_modelfun_ASW (varargin)
 % tracers: list of tracers for which the output should be calculated (cell string)
 %
 % OUTPUT:
-% X: output data (vector of struct with fieldnames as given in 'tracers' at input)
+% X: output data (vector of struct with fieldnames as given in 'tracers' at input). Gas concentrations are given in the same format asin the output of nf_atmos_gas.m . Concentration ratios are given as (for example) X.RHe: 3He/4He, X.RNe: 20Ne/22Ne, X.RAr: 36Ar/40Ar.
 %
 % *** OPTION-B: function X = nf_modelfun_ASW (info)
 %

@@ -12,7 +12,7 @@ function X = nf_modelfun_EAu (varargin)
 % t: date of gas equilibration (decimal calendar year, i.e., t=2000.5 corresponds to the middle of year 2000). t may be left empty (t = []) for use with tracers that are not transient (the default value will be used), but specifying a (dummy) value will speed up evaluation. 
 %
 % OUTPUT:
-% X: output data (vector of struct with fieldnames as given in 'tracers' at input)
+% X: output data (vector of struct with fieldnames as given in 'tracers' at input), see also nf_modelfun_ASW.m
 %
 % *** OPTION-B: function X = nf_modelfun_EAu (info)
 %

@@ -15,7 +15,7 @@ function X = nf_modelfun_EApr (varargin)
 % tracers: list of tracers for which the output should be calculated (cell string)
 %
 % OUTPUT:
-% X: output data (vector of struct with fieldnames as given in 'tracers' at input)
+% X: output data (vector of struct with fieldnames as given in 'tracers' at input), see also nf_modelfun_ASW.m
 %
 % *** OPTION-B: function X = nf_modelfun_EApr (info)
 %
