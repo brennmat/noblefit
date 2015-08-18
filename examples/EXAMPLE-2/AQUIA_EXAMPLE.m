@@ -49,3 +49,7 @@ pMax = [25,0,Inf,0.1,1,2020];        % upper limits of fitted variable values (v
 % *******************************************************************
 % fit the samples
 [par_val,par_err,chi2,DF,pVal] = noblefit ( mdl , smpl , trc , fp, p0 , pSc , pMin , pMax );
+
+% *******************************************************************
+% save results to ASCII file
+nf_save_fitresults ('AQUIA_FITRESULTS.txt',smpl,{'T (°C)','A (ccSTP/g)','F (-)'},par_val,par_err,chi2,DF,pVal,'Fit results from noblefit, fitted T-A-F fit with CE model to a subset of the noble gas data published in W. Aeschbach-Hertig, M. Stute, J. Clark, R. Reuter, and P. Schlosser. A paleotemperature record derived from dissolved noble gases in groundwater of the Aquia Aquifer (Maryland, USA). Geochim. Cosmochim. Acta, 66(5):797–817, 2002.');

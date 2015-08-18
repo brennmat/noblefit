@@ -1,6 +1,6 @@
 function data = nf_read_datafile (file,options);
 
-% [data,tracers] = nf_read_datafile (file,options);
+% data = nf_read_datafile (file,options);
 %
 % Reads data from a formatted text file. The data needs to be organized in columns as follows:
 % - Columns are assumed to be separated by tabs. Other delimiters may be specified using 'options'.
