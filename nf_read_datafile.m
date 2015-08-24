@@ -70,7 +70,19 @@ if fid < 0
 end
 
 % read header and prepare data
-H = fgetl (fid);
+H = '';
+while length(H) == 0
+	H = fgetl (fid);
+	H = fliplr(deblank(fliplr(H))); % remove blanks at beginning of line
+	if any ( k = findstr(H,'%') ) % remove comment (if any)
+		k = k(1);
+		if k > 1
+			H = H(1:k);
+		else
+			H = '';
+		end
+	end
+end
 H = strsplit (H,delim);
 
 Ncol = length (H); % number of columns
