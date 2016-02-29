@@ -19,6 +19,8 @@ function [C_atm,v_atm,D,M_mol,H] = nf_atmos_gas (gas,T,S,p_atm,year,hemisphere)
 %           'CFC11', 'CFC12', 'CFC113'
 %           'O2', 'O2-34', 'O2-35', 'O2-36'
 %           'N2', 'N2-28, 'N2-29', 'N2-30'
+%           'CH4' (no atmospheric partial pressures or aqueous concentrations, just Henry's Law coefficient from Sander (1999) data compilation. Diffusivity not yet implemented.
+%           'CO2' (no atmospheric partial pressures or aqueous concentrations, just Henry's Law coefficient from Sander (1999) data compilation. Diffusivity not yet implemented.
 % year:     year of gas exchange with atmosphere (calendar year, with decimals; example: 1975.0 corresponds to 1. Jan of 1975.098 corresponds to 5. Feb. 1975, etc.). This is only relevant for those gases with time-variable partial pressures in the atmosphere (e.g. CFCs, SF6)
 % hemisphere: string indicating hemisphere (one of 'north', 'south', or 'global'). If the hemisphere argument is not specified, hemisphere = 'global' is used.
 %
@@ -81,6 +83,8 @@ M_water = 18.016; % molar weight of (pure) water (g/mol)
 if p_water > p_atm
     warning ( 'nf_atmos_gas_par_range' , sprintf('nf_atmos_gas.m: atmospheric pressure (%g hPa) is lower than vapour pressure (%g hPa). Pressure correction for calculation of gas concentration in water will go terribly wrong...',p_atm,p_water))
 end % if
+
+H = NaN;
 
 switch gas
 
@@ -262,6 +266,36 @@ case {'O2'}
     [C_atm,v_atm,D] = __solubility_noble (TKELV,S,pATM,1070);
     D = D / 1E9;
     M_mol = 31.9989;
+
+case {'CO2'}
+	warning ('nf_atmos_gas: ignoring chemical partitioning of CO2 in water!')
+    C_atm = v_atm = NA; % no universal number here!
+    M_mol = 44.01; % from http://en.wikipedia.org/wiki/Carbon_dioxide, 29. Feb 2016
+    % Inverse Henry's Law constant, using formulae and data from review/compilation by Rolf Sander (1999), with T in Kelvin:
+    %   k°H = Inverse Henry's law constant for solubility in water at 298.15 K, in (mol/L)/atm
+    %   d(ln(kH))/d(1/T) = Temperature dependence constant, in K 
+    %   kH(T) = k°H * exp( d(ln(kH))/d(1/T) * (1/T - 1/298.15 K) )  Inverse Henry's Law coefficient, in (mol/L)/atm
+    
+    kH0 = 3.4E-2;   % kH0 at 298.15 K, in (mol/L)/atm
+    uT  = 2400;     % uT = ln(kH)/d(1/T) = Temperature dependence constant, in K    
+    kH  = kH0 * exp( uT .* (1./TKELV - 1/298.15) ); % inverse Henry's Law coefficient in (mol/L)/atm
+    H = 1./kH; % Henry's Law coefficient in atm/(mol/L)
+    H = H * 1013.25 * 1000; %Henry's Law coefficient in hPa/(mol/g)
+
+case {'CH4'}
+    C_atm = v_atm = NA; % no universal number here!
+    D = NA; warning ( 'atmos_gas_implementation' , 'atmos_gas: diffusivity of CH4 (methane) not yet implemented.')
+    M_mol = 16.04; % from http://en.wikipedia.org/wiki/Methane, 9. July 2013
+    % Inverse Henry's Law constant, using formulae and data from review/compilation by Rolf Sander (1999), with T in Kelvin:
+    %   k°H = Inverse Henry's law constant for solubility in water at 298.15 K, in (mol/L)/atm
+    %   d(ln(kH))/d(1/T) = Temperature dependence constant, in K 
+    %   kH(T) = k°H * exp( d(ln(kH))/d(1/T) * (1/T - 1/298.15 K) )  Inverse Henry's Law coefficient, in (mol/L)/atm
+    
+    kH0 = mean ([ 0.0014 0.0013 0.0013 0.0014 ]);   % kH0 at 298.15 K, in (mol/L)/atm
+    uT  = mean ([ 1600 1900 1800 1700 ]);           % uT = ln(kH)/d(1/T) = Temperature dependence constant, in K
+    kH  = kH0 * exp( uT .* (1./TKELV - 1/298.15) ); % inverse Henry's Law coefficient in (mol/L)/atm [VALUES FROM THIS WERE CONFIRMED TO BE CONSISTENT WITH INVERSE HENRY COEFFICIENTS GIVEN HYDROSPHÄRE LECTURE NOTES BY DIETER IMBODEN FOR 0:5:25 DEG.C.]
+    H = 1./kH; % Henry's Law coefficient in atm/(mol/L)
+    H = H * 1013.25 * 1000; %Henry's Law coefficient in hPa/(mol/g)
         
 case {'SF6'}
     M_mol = 146.0559;
@@ -353,8 +387,9 @@ else % try to fix this for transient atmospheric gases:
         case { "SF6" , "CFC11", "CFC-11" , "CFC12", "CFC-12" , "CFC113", "CFC-113" }
             [X1,X2,X3,X4,H] = nf_atmos_gas (gas,T,S,p_atm,2000);
         otherwise
-            H = NaN;
-            warning ( 'nf_atmos_gas_henry_zerodivision' , sprintf('Could not calculate Henry coefficient for %s, because C_atm is zero or negative. Returning H = NaN.',gas));
+        	if isnan (H)
+	            warning ( 'nf_atmos_gas_henry_zerodivision' , sprintf('Could not calculate Henry coefficient for %s, because C_atm is zero or negative. Returning H = NaN.',gas));
+	        end
     end
 end
 
