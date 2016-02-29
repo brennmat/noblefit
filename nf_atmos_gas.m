@@ -281,6 +281,7 @@ case {'CO2'}
     kH  = kH0 * exp( uT .* (1./TKELV - 1/298.15) ); % inverse Henry's Law coefficient in (mol/L)/atm
     H = 1./kH; % Henry's Law coefficient in atm/(mol/L)
     H = H * 1013.25 * 1000; %Henry's Law coefficient in hPa/(mol/g)
+    H = H / mol_2_ccSTP; % convert from mol/g to ccSTP/g
 
 case {'CH4'}
     C_atm = v_atm = NA; % no universal number here!
@@ -296,6 +297,7 @@ case {'CH4'}
     kH  = kH0 * exp( uT .* (1./TKELV - 1/298.15) ); % inverse Henry's Law coefficient in (mol/L)/atm [VALUES FROM THIS WERE CONFIRMED TO BE CONSISTENT WITH INVERSE HENRY COEFFICIENTS GIVEN HYDROSPHÄRE LECTURE NOTES BY DIETER IMBODEN FOR 0:5:25 DEG.C.]
     H = 1./kH; % Henry's Law coefficient in atm/(mol/L)
     H = H * 1013.25 * 1000; %Henry's Law coefficient in hPa/(mol/g)
+    H = H / mol_2_ccSTP; % convert from mol/g to ccSTP/g
         
 case {'SF6'}
     M_mol = 146.0559;
