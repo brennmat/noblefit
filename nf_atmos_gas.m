@@ -382,16 +382,33 @@ end % end of switch gas
 
 
 % calculate Henry's Law coefficient from partial pressure and aqueous concentration:
-if C_atm > 0
-    H = (p_atm-p_water).*v_atm ./ C_atm;
-else % try to fix this for transient atmospheric gases:
-    switch gas
-        case { "SF6" , "CFC11", "CFC-11" , "CFC12", "CFC-12" , "CFC113", "CFC-113" }
-            [X1,X2,X3,X4,H] = nf_atmos_gas (gas,T,S,p_atm,2000);
-        otherwise
-        	if isnan (H)
-	            warning ( 'nf_atmos_gas_henry_zerodivision' , sprintf('Could not calculate Henry coefficient for %s, because C_atm is zero or negative. Returning H = NaN.',gas));
-	        end
+H = repmat (NaN,size(C_atm));
+PA = p_atm;
+if ( length(PA) == 1 )
+	PA = repmat (PA,size(H));
+end
+V = v_atm;
+if ( length(V) == 1 )
+	V = repmat (V,size(H));
+end
+
+k = find ( C_atm > 0 );
+l = find ( C_atm <= 0);
+if any (k)
+	H(k) = (PA(k)-p_water(k)).*V(k) ./ C_atm(k);
+end
+if any(l)
+	switch gas
+		case { "SF6" , "CFC11", "CFC-11" , "CFC12", "CFC-12" , "CFC113", "CFC-113" }
+			if ( length(T) == 1 )
+				T = repmat (T,size(H));
+			end
+			if ( length(S) == 1 )
+				S = repmat (S,size(H));
+			end
+	    	[X1,X2,X3,X4,H(l)] = nf_atmos_gas (gas,T(l),S(l),PA(l),2000);
+	    otherwise
+	    warning ( 'nf_atmos_gas_henry_zerodivision' , sprintf('Could not calculate Henry coefficient for %s, because C_atm is zero or negative. Returning H = NaN.',gas));
     end
 end
 
