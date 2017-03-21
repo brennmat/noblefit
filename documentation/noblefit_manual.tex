@@ -16,6 +16,9 @@
            keywordstyle=\ttfamily,
           breaklines=true
           }
+          
+\usepackage[normalem]{ulem}
+
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241}
 
@@ -24,7 +27,7 @@
 
 
 \title{\Huge \noblefit\ \\[1ex]
-\Large A Matlab/\mbox{GNU Octave} toolbox to fit (environmental) data}
+\Large A \sout{Matlab}/\mbox{GNU Octave} toolbox to fit (environmental) data}
 \author{Matthias S.\ Brennwald\\ \url{matthias.brennwald@eawag.ch}
 }
 \date{\today}
@@ -45,12 +48,12 @@ Copyright (C) 2014 Matthias S. Brennwald, Eawag (Swiss Federal Institute of Aqua
 \clearpage
 
 \section{What is \noblefit?}
-\noblefit\ is a flexible Matlab/\mbox{GNU Octave} toolbox for quantitative interpretation of (environmental) tracers in terms of environmental processes and models (e.g., dissolved noble gases, other atmospheric gases, or just about anything else that deserves quantitative model-based interpretation).\par
+\noblefit\ is a flexible \sout{Matlab}/\mbox{GNU Octave} toolbox for quantitative interpretation of (environmental) tracers in terms of environmental processes and models (e.g., dissolved noble gases, other atmospheric gases, or just about anything else that deserves quantitative model-based interpretation).\par
 
 In contrast to similar tools\citep{Aeschbach:1999} where the possible tracers and models are hard-wired into the code, \noblefit\ is designed to allow the user to define his own tracers and models.
 
 \section{Installation and Setup}
-This text assumes you are familiar with Matlab or GNU Octave, and that you have a working installation of either Matlab or GNU Octave on your computer.
+This text assumes you are familiar with \sout{Matlab} or GNU Octave, and that you have a working installation of either \sout{Matlab} or GNU Octave on your computer.
 
 \subsection{Download \noblefit}\label{sec:get_mpic}
 There are two ways to get \noblefit: 
@@ -60,18 +63,18 @@ There are two ways to get \noblefit:
 \end{itemize}
 
 \subsection{Install \noblefit}\label{sec:install_mpic}
-Once you have a copy of \noblefit\ downloaded to your computer, you should move the \noblefit\ folder to a convenient location on your computer. I like to keep all your Matlab/\mbox{GNU Octave} code and packages in one directory, which contains several subdirectories for the different packages and projects. This greatly helps Matlab/\mbox{GNU Octave} to find your files. For instance, I keep all my m-files in {\tt \textasciitilde{}/m-files/}, so \noblefit\ goes to {\tt \textasciitilde{}/m-files/noblefit}. Then I tell Matlab/GNU Octave where to look for the \noblefit\ functions by including the command {\tt addpath('\textasciitilde{}/m-files/noblefit')} in the {\tt startup.m} file (Matlab) or the {\tt .octaverc} file (GNU Octave).
+Once you have a copy of \noblefit\ downloaded to your computer, you should move the \noblefit\ folder to a convenient location on your computer. I like to keep all the \sout{Matlab}/\mbox{GNU Octave} code and packages in one directory, which contains several subdirectories for the different packages and projects. This greatly helps \sout{Matlab}/\mbox{GNU Octave} to find your files. For instance, I keep all my m-files in {\tt \textasciitilde{}/m-files/}, so \noblefit\ goes to {\tt \textasciitilde{}/m-files/noblefit}. Then I tell \sout{Matlab}/GNU Octave where to look for the \noblefit\ functions by including the command {\tt addpath('\textasciitilde{}/m-files/noblefit')} in the {\tt startup.m} file (\sout{Matlab}) or the {\tt .octaverc} file (GNU Octave).
 
 \section{Working with \noblefit}
-% The \noblefit\ tools work the same as any other Matlab/\mbox{GNU Octave} tool. First you need to make sure Matlab or GNU Octave knows where to look for the \noblefit\ files (\secref{install_mpic}). Then you just type the name of the functions to the command shell to execute them.\par
+% The \noblefit\ tools work the same as any other \sout{Matlab}/\mbox{GNU Octave} tool. First you need to make sure \sout{Matlab} or GNU Octave knows where to look for the \noblefit\ files (\secref{install_mpic}). Then you just type the name of the functions to the command shell to execute them.\par
 
 \subsection{Overview}
 The general approach of the \noblefit\ package is to fit a model to a given data set using the $\chi^2$ regression method \citep{Press:1986}. \noblefit\ reports the best-fit values of the fitted model variables, their standard errors (calculated by propagation of the data errors), and the statistics about the goodness of the fit ($\chi^2$, $p$ value, and degrees of freedom of the regression).\par
 
 Before a model can be fitted to a data set, the fitting problem must be defined as follows ($n$: number of data values per data set, $m$: number of fitted model variables; $ n > m$):
 \begin{itemize}
-\item The user must provide the measured (or observed) data to \noblefit. Each data set consists of the observed values $\vec{y} = (y_1, \ldots, y_n)$ and the associated standard errors $\vec{e} = (e_1, \ldots, e_n)$ (note that data values without errors are useless). In simple cases, the data can be entered directly on the Matlab/\mbox{GNU Octave} terminal. If the data set is large, or if there are many different data sets (e.g., data from different samples), it may be more convenient and reliable to load the data from a file.
-\item The user must provide the model function $\vec{Y} = F(\vec{X})$ to \noblefit. This is done by writing a Matlab/\mbox{GNU Octave} function that calculates the modelled data values $\vec{Y} = y_1, \ldots, y_n$ as a function of the input variables $\vec{X} = X_1, \ldots, X_m$ of the model.
+\item The user must provide the measured (or observed) data to \noblefit. Each data set consists of the observed values $\vec{y} = (y_1, \ldots, y_n)$ and the associated standard errors $\vec{e} = (e_1, \ldots, e_n)$ (note that data values without errors are useless). In simple cases, the data can be entered directly on the \sout{Matlab}/\mbox{GNU Octave} terminal. If the data set is large, or if there are many different data sets (e.g., data from different samples), it may be more convenient and reliable to load the data from a file.
+\item The user must provide the model function $\vec{Y} = F(\vec{X})$ to \noblefit. This is done by writing a \sout{Matlab}/\mbox{GNU Octave} function that calculates the modelled data values $\vec{Y} = y_1, \ldots, y_n$ as a function of the input variables $\vec{X} = X_1, \ldots, X_m$ of the model.
 \item The user must provide the inital values of the fitted model variable. These initial values will be used as a starting point to find the best-fit values.
 \item If only a subset of the model variables is used in the fit, the user must provide the values of the model parameters that will be used to evaluate the model (i.e., the fixed values of the model variables that are not fitted).
 \end{itemize}
