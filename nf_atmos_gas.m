@@ -285,7 +285,7 @@ case {'CO2'}
 
 case {'CH4'}
     C_atm = v_atm = NA; % no universal number here!
-    D = NA; warning ( 'atmos_gas_implementation' , 'atmos_gas: diffusivity of CH4 (methane) not yet implemented.')
+    D = NA; %%% warning ( "atmos_gas_implementation" , "atmos_gas: diffusivity of CH4 (methane) not yet implemented." )
     M_mol = 16.04; % from http://en.wikipedia.org/wiki/Methane, 9. July 2013
     % Inverse Henry's Law constant, using formulae and data from review/compilation by Rolf Sander (1999), with T in Kelvin:
     %   k°H = Inverse Henry's law constant for solubility in water at 298.15 K, in (mol/L)/atm
@@ -382,34 +382,37 @@ end % end of switch gas
 
 
 % calculate Henry's Law coefficient from partial pressure and aqueous concentration:
-H = repmat (NaN,size(C_atm));
-PA = p_atm;
-if ( length(PA) == 1 )
-	PA = repmat (PA,size(H));
-end
-V = v_atm;
-if ( length(V) == 1 )
-	V = repmat (V,size(H));
-end
 
-k = find ( C_atm > 0 );
-l = find ( C_atm <= 0);
-if any (k)
-	H(k) = (PA(k)-p_water(k)).*V(k) ./ C_atm(k);
-end
-if any(l)
-	switch gas
-		case { "SF6" , "CFC11", "CFC-11" , "CFC12", "CFC-12" , "CFC113", "CFC-113" }
-			if ( length(T) == 1 )
-				T = repmat (T,size(H));
-			end
-			if ( length(S) == 1 )
-				S = repmat (S,size(H));
-			end
-	    	[X1,X2,X3,X4,H(l)] = nf_atmos_gas (gas,T(l),S(l),PA(l),2000);
-	    otherwise
-	    warning ( 'nf_atmos_gas_henry_zerodivision' , sprintf('Could not calculate Henry coefficient for %s, because C_atm is zero or negative. Returning H = NaN.',gas));
-    end
+if isnan(H)
+	H = repmat (NaN,size(C_atm));
+	PA = p_atm;
+	if ( length(PA) == 1 )
+		PA = repmat (PA,size(H));
+	end
+	V = v_atm;
+	if ( length(V) == 1 )
+		V = repmat (V,size(H));
+	end
+	
+	k = find ( C_atm > 0 );
+	l = find ( C_atm <= 0);
+	if any (k)
+		H(k) = (PA(k)-p_water(k)).*V(k) ./ C_atm(k);
+	end
+	if any(l)
+		switch gas
+			case { "SF6" , "CFC11", "CFC-11" , "CFC12", "CFC-12" , "CFC113", "CFC-113" }
+				if ( length(T) == 1 )
+					T = repmat (T,size(H));
+				end
+				if ( length(S) == 1 )
+					S = repmat (S,size(H));
+				end
+		    	[X1,X2,X3,X4,H(l)] = nf_atmos_gas (gas,T(l),S(l),PA(l),2000);
+		    otherwise
+		    warning ( 'nf_atmos_gas_henry_zerodivision' , sprintf('Could not calculate Henry coefficient for %s, because C_atm is zero or negative. Returning H = NaN.',gas));
+	    end
+	end
 end
 
 endfunction % main function

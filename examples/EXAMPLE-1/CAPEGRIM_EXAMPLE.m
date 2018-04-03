@@ -33,12 +33,12 @@
 % *******************************************************************
 % measured data (from Brennwald et al, EPSL, 2013):
 % *******************************************************************
-meas.name = 'CAPEGRIM RHe';
-meas.R1.val = 1.399E-6;	meas.R1.err = 0.003E-6; % RHe (7.7.1978)
-meas.R2.val = 1.399E-6;	meas.R2.err = 0.003E-6; % RHe (23.5.1984)
-meas.R3.val = 1.395E-6;	meas.R3.err = 0.004E-6; % RHe (2.3.1993)
-meas.R4.val = 1.391E-6;	meas.R4.err = 0.003E-6; % RHe (1.12.2004)
-meas.R5.val = 1.390E-6;	meas.R5.err = 0.003E-6; % RHe (4.5.2011)
+smpl.name = 'CAPEGRIM RHe';
+smpl.R1.val = 1.399E-6;	smpl.R1.err = 0.003E-6; % RHe (7.7.1978)
+smpl.R2.val = 1.399E-6;	smpl.R2.err = 0.003E-6; % RHe (23.5.1984)
+smpl.R3.val = 1.395E-6;	smpl.R3.err = 0.004E-6; % RHe (2.3.1993)
+smpl.R4.val = 1.391E-6;	smpl.R4.err = 0.003E-6; % RHe (1.12.2004)
+smpl.R5.val = 1.390E-6;	smpl.R5.err = 0.003E-6; % RHe (4.5.2011)
 
 
 % *******************************************************************
@@ -87,8 +87,8 @@ t = [ 7/365+(7-1)/12+1978,...	% 7.7.1978
       1/365+(12-1)/12+2004,...	% 1.12.2004
       4/365+(5-1)/12+2011 ...	% 4.5.2011
     ];
-v = [ meas.R1.val meas.R2.val meas.R3.val meas.R4.val meas.R5.val ]; % measured values
-e = [ meas.R1.err meas.R2.err meas.R3.err meas.R4.err meas.R5.err ]; % standard errors of measured values
+v = [ smpl.R1.val smpl.R2.val smpl.R3.val smpl.R4.val smpl.R5.val ]; % measured values
+e = [ smpl.R1.err smpl.R2.err smpl.R3.err smpl.R4.err smpl.R5.err ]; % standard errors of measured values
 tt = [ 1975:10:2015 ]; mm = par_val(1) + (tt-2000)*par_val(2); % model values / trend line (tt: time, mm: 3He/4He values)
 % plot measured data and fitted trend line:
 h = errorbar (t,v,e,'~'); hold on % plot measured data with error bars
