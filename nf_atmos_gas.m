@@ -964,21 +964,3 @@ if any (i = find( year >= min(t)  &  year <= max(t) ))
 end % if
 
 endfunction % function v = __CFC113_air (year,hemisphere);
-
-
-
-function [rhotot,rho0T,densr] = __noble_dens(T,s);  
-% T in K
-% S g/kg
-% density in g/L, nach Unesco or Gill 1982; no pressure
-
-index=s<0  ;  s(index)=zeros(size(s(index)));	% for negative s set density to density with s=0  ;  
-t=T-273.15  ;  
-
-a(1,:)=[999.842594,8.244930E-01,-5.724660E-03,4.831400E-04]  ;  a(2,:)=[6.793952E-02,-4.089900E-03,1.022700E-04,0]  ;  a(3,:)=[-9.095290E-03,7.643800E-05,-1.654600E-06,0]  ;  a(4,:)=[1.001685E-04,-8.246700E-07,0,0]  ;  a(5,:)=[-1.120083E-06,5.387500E-09,0,0]  ;  a(6,:)=[6.536332E-09,0,0,0]  ;  
-
-
-T1=t; T2=T1.*t; T3=T2.*t; T4=T3.*t; T5=T4.*t  ;  S1=s; S2=s.^(3/2); S3=s.*s  ;  
-rho0T=a(1,1)+a(2,1).*T1+a(3,1).*T2+a(4,1).*T3+a(5,1).*T4+a(6,1).*T5  ;  rho0TS1=(a(1,2)+a(2,2).*T1+a(3,2).*T2+a(4,2).*T3+a(5,2).*T4).*S1  ;  rho0TS2=(a(1,3)+a(2,3).*T1+a(3,3).*T2).*S2  ;  rho0TS3=(a(1,4)).*S3  ;  rhotot=rho0T+rho0TS1+rho0TS2+rho0TS3  ;  
-densr=rho0T./rhotot  ;  
-endfunction % function [rhotot,rho0T,densr] = __noble_dens(T,s);
