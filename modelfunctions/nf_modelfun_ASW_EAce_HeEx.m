@@ -1,21 +1,22 @@
-function X = nf_modelfun_ASW_EAce (varargin)
+function X = nf_modelfun_ASW_EAce_HeEx (varargin)
 
-% X = nf_modelfun_ASW_EAce (T,S,P,A,F,t,tracers)
-% X = nf_modelfun_ASW_EAce (info)
+% X = nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,tracers)
+% X = nf_modelfun_ASW_EAce_HeEx (info)
 %
-% Returns gas concentrations given by sum of air saturated water (ASW) and closed-system equilibrium excess air (EAce), see OUTPUT as described below.
+% Returns gas concentrations given by sum of air saturated water (ASW), closed-system equilibrium excess air (EAce) and non-atmospheric He isotopes (terrigenic, tritiogenic), see OUTPUT as described below.
 %
-% *** OPTION-A: X = nf_modelfun_ASW_EAce (T,S,P,A,F,t,tracers)
+% *** OPTION-A: X = nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,tracers)
 %
 % INPUT
 % T, S, P, t: see nf_modelfun_ASW
 % A, F: see nf_modelfun_EAce
+% H, R, TR: see nf_modelfun_HeEx
 % tracers: list of tracers for which the output should be calculated (cell string)
 %
 % OUTPUT:
 % X: output data (vector of entries as given in 'tracers' at input), see also nf_modelfun_ASW.m
 %
-% *** OPTION-B: function X = nf_modelfun_ASW_EAce (info)
+% *** OPTION-B: function X = nf_modelfun_ASW_EAce_HeEx (info)
 %
 % INPUT:
 % info: string indicating the type of information needed:
@@ -47,7 +48,7 @@ function X = nf_modelfun_ASW_EAce (varargin)
 % You should have received a copy of the GNU General Public License
 % along with NOBLEGASFIT.  If not, see <http://www.gnu.org/licenses/>.
 %
-% Copyright (C) 2014 Matthias S. Brennwald, matthias.brennwald@eawag.ch
+% Copyright (C) 2019 Matthias S. Brennwald, matthias.brennwald@eawag.ch
 % Additional information about NOBLEGASFIT is available at http://homepages.eawag.ch/~brennmat/
 % Please contribute if you find this software useful.
 % *******************************************************************
@@ -56,58 +57,73 @@ if nargin == 1 % return info
     switch upper(varargin{1})
 
         case 'PARAMS'
-            X = { 'T' 'S' 'P' 'A' 'F' 't' };
+            X = { 'T' 'S' 'P' 'A' 'F' 'H' 'R' 'TR' 't' };
 
         case 'DEFAULTS'
-            X    = nf_modelfun_ASW ('DEFAULTS'); % use same defaults as with nf_modelfun_ASW
-            Xea  = nf_modelfun_EAce ('DEFAULTS'); % use same defaults as with nf_modelfun_EAce
-            X.A  = Xea.A;
-            X.F  = Xea.F;
+            X     = nf_modelfun_ASW ('DEFAULTS'); % use same defaults as with nf_modelfun_ASW
+            Xea   = nf_modelfun_EAce ('DEFAULTS'); % use same defaults as with nf_modelfun_EAce
+            Xhe   = nf_modelfun_HeEx ('DEFAULTS'); % use same defaults as with nf_modelfun_HeEx
+            X.A   = Xea.A;
+            X.F   = Xea.F;
+            X.H   = Xhe.H;
+            X.R   = Xhe.R;
+            X.TR  = Xhe.TR;
 
         case 'RANGES'
-            X   = nf_modelfun_ASW_EAu ('RANGES');
-            Xea = nf_modelfun_EAce ('RANGES');
-            X.F = Xea.F;
+            X    = nf_modelfun_ASW_EAu ('RANGES');
+            Xea  = nf_modelfun_EAce ('RANGES');
+            Xhe  = nf_modelfun_HeEx ('RANGES');
+            X.F  = Xea.F;
+            X.H  = Xhe.H;
+            X.R  = Xhe.R;
+            X.TR = Xhe.TR;
 
         case 'TRACERS'
             tASW = nf_modelfun_ASW ('TRACERS');
             tEA  = nf_modelfun_EAce ('TRACERS');
-            X    = intersect (tASW,tEA); % tracers that are included in both model parts
+            tHE  = nf_modelfun_HeEx ('TRACERS');
+
+	    % tracers that are included in all model parts:
+            X    = intersect (tASW,tEA); 
+            X    = intersect (X,tHE); 
 
         otherwise
             error (sprintf('nf_modelfun_ASW_EAce: unknown usage key ''%s''.',varargin{1}));
     end
 else % return concentrations
-    T = varargin{1};
-    S = varargin{2};
-    P = varargin{3};
-    A = varargin{4};
-    F = varargin{5};
-    t = varargin{6};
+    T  = varargin{1};
+    S  = varargin{2};
+    P  = varargin{3};
+    A  = varargin{4};
+    F  = varargin{5};
+    H  = varargin{6};
+    R  = varargin{7};
+    TR = varargin{8};
+    t  = varargin{9};
     if isempty(t)
         t = getfield (nf_modelfun_EAce('DEFAULTS'),'t');
     end
-    tracers = varargin{7};
+    tracers = varargin{10};
     if ( ~iscellstr(tracers) && ischar(tracers)) % convert tracers to cellstring
         tracers = cellstr (tracers);
     end
     tracers = strrep (tracers,'-','_'); % make sure entries like He-3 work out as He_3
 
-    % calculate sum of ASW and unfractionated excess air (concentrations and isotope ratios):
+    % calculate sum of ASW, unfractionated excess air and non-atmospheric He (concentrations and isotope ratios):
     for i = 1:length(tracers)
         switch tracers{i}
         
             case 'RHe'            
-                X(i) = nf_modelfun_ASW_EAce (T,S,P,A,F,t,'He-3') / nf_modelfun_ASW_EAce (T,S,P,A,F,t,'He-4');
+                X(i) = nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,'He-3') / nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,'He-4');
                 
             case 'RNe'
-                X(i) = nf_modelfun_ASW_EAce (T,S,P,A,F,t,'Ne-20') / nf_modelfun_ASW_EAce (T,S,P,A,F,t,'Ne-22');
+                X(i) = nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,'Ne-20') / nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,'Ne-22');
            
             case 'RAr'
-                X(i) = nf_modelfun_ASW_EAce (T,S,P,A,F,t,'Ar-36') / nf_modelfun_ASW_EAce (T,S,P,A,F,t,'Ar-40');
+                X(i) = nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,'Ar-36') / nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,'Ar-40');
 
-            otherwise % concentrations
-                X(i)  = nf_modelfun_ASW (T,S,P,t,tracers{i}) + nf_modelfun_EAce (T,S,P,A,F,t,tracers{i});
+            otherwise % concentrations (ASW + EA + EXCESS)
+                X(i)  = nf_modelfun_ASW (T,S,P,t,tracers{i}) + nf_modelfun_EAce (T,S,P,A,F,t,tracers{i}) + nf_modelfun_HeEx (H,R,TR,tracers{i});
                 
         end % switch
     end % for    

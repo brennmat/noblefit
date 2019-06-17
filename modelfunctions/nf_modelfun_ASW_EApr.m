@@ -91,6 +91,7 @@ else % return concentrations
     if ( ~iscellstr(tracers) && ischar(tracers)) % convert tracers to cellstring
         tracers = cellstr (tracers);
     end
+    tracers = strrep (tracers,'-','_'); % make sure entries like He-3 work out as He_3
 
     % calculate sum of ASW and unfractionated excess air (concentrations and isotope ratios):
     for i = 1:length(tracers)

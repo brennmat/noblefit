@@ -95,6 +95,7 @@ else
     if ( ~iscellstr(tracers) && ischar(tracers)) % convert tracers to cellstring
         tracers = cellstr (tracers);
     end
+    tracers = strrep (tracers,'-','_'); % make sure entries like He-3 work out as He_3
 
     if T < 0
         warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_ASW: T=%g is negative. This is not physically sensible in the ASW model...',T));

@@ -76,7 +76,7 @@ if nargin == 1
             X.t = Xasw.t;   % use same values as with nf_modelfun_ASW
 
         case 'TRACERS'
-            X = { 'He',  'Ne' , 'Ar' , 'Kr',  'Xe' , 'N2' , 'RHe' , 'RNe' , 'RAr' , 'He-3' , 'He-4' , 'Ne-20' , 'Ne-22' , 'Ar-36' , 'Ar-40' , 'N2' , 'SF6' };
+            X = { 'He',  'Ne' , 'Ar' , 'Kr',  'Xe' , 'N2' , 'RHe' , 'RNe' , 'RAr' , 'He_3' , 'He_4' , 'Ne_20' , 'Ne_22' , 'Ar_36' , 'Ar_40' , 'N2' , 'SF6' };
 
         otherwise
             error (sprintf('nf_modelfun_ASW_EApr: unknown usage key ''%s''.',varargin{1}));
@@ -95,6 +95,7 @@ else
     if ( ~iscellstr(tracers) && ischar(tracers)) % convert tracers to cellstring
         tracers = cellstr (tracers);
     end
+    tracers = strrep (tracers,'-','_'); % make sure entries like He-3 work out as He_3
 
     if A < 0
         warning ( 'noblefit:modelfun_params_out_of_bounds' , sprintf('nf_modelfun_EApr: A=%g is negative. This is not physically sensible in the PR excess air model...',A));
