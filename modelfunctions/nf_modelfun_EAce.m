@@ -70,7 +70,7 @@ if nargin == 1
             X.F.max = 1; % by definition, F > corresponds to a degassing model (which is not the idea here)
 
         case 'TRACERS'
-            X = { 'He',  'Ne' , 'Ar' , 'Kr',  'Xe' , 'N2' , 'RHe' , 'RNe' , 'RAr' , 'He_3' , 'He_4' , 'Ne_20' , 'Ne_22' , 'Ar_36' , 'Ar_40' , 'N2' , 'SF6' };
+            X = { 'He',  'Ne' , 'Ar' , 'Kr',  'Xe' , 'N2' , 'RHe' , 'RNe' , 'RAr' , 'He_3' , 'He_4' , 'Ne_20' , 'Ne_22' , 'Ar_36' , 'Ar_40' , 'Kr_84' , 'Kr_86' , 'Xe_136' , 'N2' , 'SF6' };
 
         otherwise
             error (sprintf('nf_modelfun_ASW_EAce: unknown usage key ''%s''.',varargin{1}));
