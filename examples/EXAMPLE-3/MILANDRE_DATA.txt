@@ -1,0 +1,3 @@
+sample	Ne (ccSTP)	err Ne (ccSTP)	Ar (ccSTP)	err Ar (ccSTP)	Kr (ccSTP)	err Kr (ccSTP)	Xe (ccSTP)	err Xe (ccSTP)	M (water mass, g)	err M (water mass, g)
+M2-214	479E-12	8E-12		3318E-10	47E-10		49.3E-12	6E-13		5.8E-12	3E-13		20.0E-5		8E-6
+M2-199	226E-12	5E-12		1704E-10	24E-10		27.0E-12	3E-13		3.5E-12	1E-13		14.4E-5		1.1E-5

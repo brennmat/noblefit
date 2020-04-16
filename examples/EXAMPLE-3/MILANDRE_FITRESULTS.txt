@@ -1,0 +1,5 @@
+COMMENT: Fit results from noblefit, fitted T-A-M fit with SPELEO model to a substet of the data in https://doi.org/10.1016/j.epsl.2018.05.019.
+
+SAMPLE	T (°C)	Err. T (°C)	A (ccSTP/g)	Err. A (ccSTP/g)	M (g)	Err. M (g)	Chi2	DF	p
+M2-214	2.14356	1.52073	0.122508	0.00562573	0.000200679	7.97059e-06	11.3541	2	0.00342366
+M2-199	2.81905	2.17362	0.0786338	0.00699826	0.000140238	1.06041e-05	17.6937	2	0.000143836
