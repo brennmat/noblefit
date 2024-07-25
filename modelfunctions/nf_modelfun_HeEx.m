@@ -11,6 +11,7 @@ function X = nf_modelfun_HeEx (varargin)
 % H: amount of terrigenic He accumulated per unit mass of water (H = He-3 + He-4), (ccSTP-He / g-water)
 % R: He-3 / He-4 isotope ratio of terrigenic He
 % TR: amount of tritiogenic He-3 accumulated per unit mass of water, (ccSTP-He-3 / g-water)
+% tracers: see nf_modelfun_ASW
 %
 % OUTPUT:
 % X: output data (vector of struct with fieldnames as given in 'tracers' at input), see also nf_modelfun_ASW.m

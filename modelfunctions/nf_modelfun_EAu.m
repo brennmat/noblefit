@@ -8,8 +8,8 @@ function X = nf_modelfun_EAu (varargin)
 % *** OPTION-A: function X = nf_modelfun_EAu (A,t,tracers)
 %
 % INPUT
+% t, tracers: see nf_modelfun_ASW
 % A: amount of dry air injetected per unit mass of water, "excess air concentration" (ccSTP-air / g-water)
-% t: date of gas equilibration (decimal calendar year, i.e., t=2000.5 corresponds to the middle of year 2000). t may be left empty (t = []) for use with tracers that are not transient (the default value will be used), but specifying a (dummy) value will speed up evaluation. 
 %
 % OUTPUT:
 % X: output data (vector of struct with fieldnames as given in 'tracers' at input), see also nf_modelfun_ASW.m

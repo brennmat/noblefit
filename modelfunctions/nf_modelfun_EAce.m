@@ -1,6 +1,6 @@
 function X = nf_modelfun_EAce (varargin)
 
-% X = nf_modelfun_EAce (T,S,P,A,F,tracers)
+% X = nf_modelfun_EAce (T,S,P,A,F,t,tracers)
 % X = nf_modelfun_EAce (info)
 %
 % Returns gas concentrations corresponding to closed-system equilibrium excess air (EAce), see OUTPUT as described below (without the ASW component). See Aeschbach-Hertig et al., Nature, 405, 2000.
@@ -8,9 +8,7 @@ function X = nf_modelfun_EAce (varargin)
 % *** OPTION-A: function X = nf_modelfun_EAce (T,S,P,A,F,tracers)
 %
 % INPUT
-% T: water temperature (deg.C)
-% S: salinity (g/kg)
-% P: atmospheric pressure (hPa)
+% T, S, P, t, tracers: see nf_modelfun_ASW
 % A: initial amount of entrapped air per unit mass of water (ccSTP-air / g-water)
 % F: fractionation parameter (scalar, dimensionless, ranging for 0 to 1)
 %

@@ -8,10 +8,9 @@ function X = nf_modelfun_ASW_EAce_HeEx (varargin)
 % *** OPTION-A: X = nf_modelfun_ASW_EAce_HeEx (T,S,P,A,F,H,R,TR,t,tracers)
 %
 % INPUT
-% T, S, P, t: see nf_modelfun_ASW
+% T, S, P, t, tracers: see nf_modelfun_ASW
 % A, F: see nf_modelfun_EAce
 % H, R, TR: see nf_modelfun_HeEx
-% tracers: list of tracers for which the output should be calculated (cell string)
 %
 % OUTPUT:
 % X: output data (vector of entries as given in 'tracers' at input), see also nf_modelfun_ASW.m

@@ -8,9 +8,8 @@ function X = nf_modelfun_ASW_EAce (varargin)
 % *** OPTION-A: X = nf_modelfun_ASW_EAce (T,S,P,A,F,t,tracers)
 %
 % INPUT
-% T, S, P, t: see nf_modelfun_ASW
+% T, S, P, t, tracers: see nf_modelfun_ASW
 % A, F: see nf_modelfun_EAce
-% tracers: list of tracers for which the output should be calculated (cell string)
 %
 % OUTPUT:
 % X: output data (vector of entries as given in 'tracers' at input), see also nf_modelfun_ASW.m

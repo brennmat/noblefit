@@ -8,11 +8,9 @@ function X = nf_modelfun_EApr (varargin)
 % *** OPTION-A: function X = nf_modelfun_EApr (T,A,F,t,tracers)
 %
 % INPUT
-% T: water temperature (deg.C) -- note: partial re-equilibration depends on diffusivities, which depend on temperature
+% T, t, tracers: see nf_modelfun_ASW
 % A: amount of dry air injected per unit mass of water (ccSTP-air / g-water)
 % F: fractionation parameter (scalar, dimensionless, ranging for 0 to 1). F reflects the extent of re-equilibration relative to the excess-air part of the Ne concentration (CNeEx): F = -ln (CNeEx / CNeEx(0)), where CNeEx(0) is the initial excess air concentration of Ne before re-equilibration.
-% t: date of gas equilibration (decimal calendar year, i.e., t=2000.5 corresponds to the middle of year 2000). t may be left empty (t = []) for use with tracers that are not transient (the default value will be used), but specifying a (dummy) value will speed up evaluation. 
-% tracers: list of tracers for which the output should be calculated (cell string)
 %
 % OUTPUT:
 % X: output data (vector of struct with fieldnames as given in 'tracers' at input), see also nf_modelfun_ASW.m
