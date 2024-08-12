@@ -186,7 +186,8 @@ for i = 1:Ncol % try to parse column titles
         if ~( u = isnan(str2double(n(1)))) % field name starts with number, not good as field name in struct
             len = 1; % length of numeric string part
             while ~( u = isnan(str2double(n(len+1)))) % next string is also number
-                len +=1;
+            	disp(len)
+            	len += 1;
             end
             n = sprintf ('%s%s',n(1+len:end),n(1:len)); % move number from beginning to end
             N = upper (n); % update N
