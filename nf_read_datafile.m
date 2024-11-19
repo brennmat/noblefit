@@ -3,7 +3,7 @@ function data = nf_read_datafile (file,options);
 % data = nf_read_datafile (file,options);
 %
 % Reads data from a formatted text file. The data needs to be organized in columns as follows:
-% - Columns are assumed to be separated by tabs. Other delimiters may be specified using 'options'.
+% - Columns are assumed to be separated by tabs (or semicolons for *.csv files). Other delimiters may be specified using 'options'.
 % - The first line must be a header line with names of the data in the columns.
 % - The first column must contain sample names (treated as string).
 % - The remaining columns must contain the data values (either numbers, NA, NaN, or empty).
@@ -60,11 +60,16 @@ if exist ('options','var');
     end %for
 end
 
+% set column delimiter:
+[_,_,ext] = fileparts(file);
+if toupper(ext) == '.CSV'
+	delim = ';';
+else
+	delim = sprintf('\t');
+end
 
-% set column delimiter (use tab for now, may be more flexible in future)
-delim = sprintf('\t');
-
-[fid,msg] = fopen (file,'rt'); % open text file for reading
+% open text file for reading
+[fid,msg] = fopen (file,'rt');
 if fid < 0
     error (sprintf('Could not open text file for reading: %s',msg));
 end
@@ -84,6 +89,7 @@ while length(H) == 0
 	end
 end
 H = strsplit (H,delim);
+
 
 Ncol = length (H); % number of columns
 
